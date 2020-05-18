@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CreateProfile" >
+ <parameter name="browser" value="chrome"/>
+ <parameter name="executionEnviroment" value="qa"/>
+ <parameter name="runOnMachine" value="127.0.0.1"/>
+ <parameter name="projectPath" value="C:\\Autofusion\\"/>
+ <parameter name="device" value="web"/>
+ <parameter name="releaseVersion" value="3.5"/>
+  
+  <test name="Login">
+    <classes>
+      <class name="com.test.GmailPage_1Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- LoginSuite -->

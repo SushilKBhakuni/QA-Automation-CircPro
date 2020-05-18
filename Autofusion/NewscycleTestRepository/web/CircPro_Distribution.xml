@@ -1,0 +1,211 @@
+<OR>
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////Login_Vivek//////////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		<validusername> 
+			<xpath>//input[@name='username']</xpath>
+		</validusername>
+	
+		<password> 
+			<xpath>//input[@name='password']</xpath>
+		</password>
+		
+		<loginButton> 
+			<xpath>//input[@value='Log In']</xpath>
+		</loginButton>
+		
+		<errorMessage1> 
+			<xpath>//font[text()='Incorrect log in.']</xpath>
+		</errorMessage1>
+		
+		<verifyload> 
+			<xpath>//a[text()='Support']</xpath>
+		</verifyload>
+		
+		<Clickterminate> 
+			<xpath>//input[contains(@value,'Terminate')]</xpath>
+		</Clickterminate>
+	
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////NewSubscription_Vivek////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		<newSubscriber>
+			<xpath>(//a[text()='New'])[1]</xpath>
+		</newSubscriber>
+		
+		<firstName>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.5']</xpath>
+		</firstName>
+		
+		<lastName>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.17']</xpath>
+		</lastName>
+		
+		<email>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.55']</xpath>
+		</email>
+		
+		<streetNumber>
+			<xpath>//input[@name= '0.3.13.0.5.5.49.0.3.0.1.0.0.5']</xpath>
+		</streetNumber>
+		
+		<streetName>
+			<xpath>//input[@name= '0.3.13.0.5.5.49.0.3.0.1.0.0.15']</xpath>
+		</streetName>
+		
+		<suffix>
+			<xpath>//input[@name= 'jsuffix']</xpath>
+		</suffix>
+		
+		<saveandBack>
+			<xpath>//input[@name='0.3.13.0.5.5.3.0.0']</xpath>
+		</saveandBack>
+		
+		<zipCode>
+			<xpath>//input[@name= '0.3.13.0.5.5.51.1.0.3.0.1.0.0.5']</xpath>
+		</zipCode>
+		
+		<city>
+			<xpath>//input[@name='0.3.13.0.5.5.51.1.0.3.0.1.0.0.17']</xpath>
+		</city>
+		
+		<state>
+			<xpath>//input[@name='jstate']</xpath>
+		</state>
+		
+		<satori>
+			<xpath>//input[@name='0.3.13.0.5.0.1.0.0']</xpath>
+		</satori>
+		
+		<homeButton>
+			<xpath>//img[contains(@src,'Home.gif')]</xpath>
+		</homeButton>
+		
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////AddSubscription_Ameya////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		<SearchMenu> 
+			<xpath>(//a[text()='Search'])[1]</xpath>
+		</SearchMenu>
+	
+		<LogoutButton> 
+			<xpath>//img[@src='/WebObjects/CircWeb.woa/Contents/WebServerResources/LogOut.gif']</xpath>
+		</LogoutButton>
+			
+		<SearchBox> 
+			<xpath>//input[@name='X']</xpath>
+		</SearchBox>
+		
+		<SearchButton> 
+			<xpath>(//input[@value='Search'])[2]</xpath>
+		</SearchButton>
+		
+		<SubButton>
+			<xpath>//font[text()='TESTER2 AUTOMATION1']/../../..//td[9]</xpath>
+		</SubButton>
+		
+		<AddButton> 
+			<xpath>//input[contains(@onclick,'add another')]</xpath>
+		</AddButton>
+		
+		<DelTypeselect> 
+			<xpath>//select[@name='0.3.13.0.5.5.61.1.1.0']</xpath>
+		</DelTypeselect>
+		
+		<DelTypeOption> 
+			<xpath>//option[text()='Digital']</xpath>
+		</DelTypeOption>
+		
+		<PayTypeselect> 
+			<xpath>//select[@name='0.3.13.0.5.5.73.1.1.0']</xpath>
+		</PayTypeselect>
+		
+		<PayTypeOption> 
+			<xpath>//option[text()='PIO']</xpath>
+		</PayTypeOption>
+		
+		<DayPatternselect> 
+			<xpath>//select[@name='0.3.13.0.5.5.83.0']</xpath>
+		</DayPatternselect>
+		
+		<DayPatternOption> 
+			<xpath>//option[text()='SMTWTFS']</xpath>
+		</DayPatternOption>
+		
+		<SaveAndBackOption> 
+			<xpath>//input[@name='0.3.13.0.5.5.11.0.0']</xpath>
+		</SaveAndBackOption>
+		
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////SearchDistribution_Parul////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		<SearchButton1> 
+			<xpath>(//a[@class='external'][text()='Search'][text()='Search'])[2]</xpath>
+	    </SearchButton1>
+	
+		<validLastname> 
+			<xpath>//input[@size='22']</xpath>
+		</validLastname>
+	
+		<validfirstname> 
+			<xpath>(//input[@size='22'])[2]</xpath>
+		</validfirstname>
+		
+		<AddCriteria> 
+			<xpath>(//input[@border='0'])[2]</xpath>
+		</AddCriteria>
+		
+		<Search1> 
+			<xpath>(//input[@type='submit'])[3]</xpath>
+		</Search1>
+		
+		<Dropdown1> 
+			<xpath>//select[@name='0.3.13.0.5.1.1.35.1.3.0.0.1.0']</xpath>
+		</Dropdown1>
+		
+		<DropdownFN> 
+			<xpath>//select[@name='0.3.13.0.5.1.1.35.1.3.0.0.1.0']/option[@value='3']</xpath>
+		</DropdownFN>
+		
+		<Distributor> 
+			<xpath>//font[@size='2'][text()='Distributions']</xpath>
+		</Distributor>
+		
+		<HideInactivies> 
+			<xpath>//input[@onclick='document.myForm.submit();']</xpath>
+		</HideInactivies>
+		
+		
+		<DropdownP> 
+			<xpath>(//select[@onchange='document.myForm.submit();'])[4]</xpath>
+		</DropdownP>
+		
+		<DropdownMessenger> 
+			<xpath>//select[@name='0.3.13.0.5.1.1.67.1.11.3']/option[@value='1']</xpath>
+		</DropdownMessenger>
+		
+		<Add> 
+			<xpath>(//input[@border='0'])[3]</xpath>
+		</Add>
+		
+		<DropdownD> 
+			<xpath>//select[@onchange='document.myForm.submit();']</xpath>
+		</DropdownD>
+		
+		<DropdownMR> 
+			<xpath>//select[@onchange='document.myForm.submit();']/option[@value='6']</xpath>
+		</DropdownMR>
+		
+		<validRN> 
+			<xpath>//input[@size='12']</xpath>
+		</validRN>
+		
+		<Save> 
+			<xpath>(//input[@type='submit'])[1]</xpath>
+		</Save>
+
+</OR> 

@@ -1,0 +1,20 @@
+29/04/2020 02:34:24 automation  initializeLogger D:\Framework\Autofusion3.7\NewscycleTestRepository :: web - 29.April.202002.34.23
+29/04/2020 02:34:24 automation Logger Initiated
+29/04/2020 02:34:24 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+29/04/2020 02:34:24 automation User config loaded
+29/04/2020 02:34:24 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+29/04/2020 02:34:24 automation User config loaded
+29/04/2020 02:34:26 automation Reading Environment configuration file
+29/04/2020 02:34:26 automation Reading D:\Framework\Autofusion3.7\NewscycleTestRepository\Config.xlsx
+29/04/2020 02:34:26 automation Reading Configurations
+29/04/2020 02:34:26 automation Reading readEnviromentsUrls
+29/04/2020 02:34:26 automation Reading readEnviromentsUrls
+29/04/2020 02:34:26 automation Reading Email
+29/04/2020 02:34:39 automation Inside findElement
+29/04/2020 02:34:39 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+29/04/2020 02:34:39 automation  Root element  :OR
+29/04/2020 02:34:39 automation  element :validusername = 1
+29/04/2020 02:34:39 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+29/04/2020 02:34:39 automation inside waitForVisibilityOfElement
+29/04/2020 02:34:56 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //input[@name='username']
+29/04/2020 02:34:56 automation Assert java.lang.AssertionError: expected [true] but found [false]

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-28T23:27:35Z" name="NCP_POM" finished-at="2020-04-28T23:34:22Z" duration-ms="407696">
+    <groups>
+    </groups>
+    <test started-at="2020-04-28T23:27:35Z" name="TC-7" finished-at="2020-04-28T23:34:22Z" duration-ms="407696">
+      <class name="com.test.CircPro_ReportsBundleTopsManifestsTest">
+        <test-method is-config="true" signature="getSuitName(org.testng.ITestContext)[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:57:35Z" name="getSuitName" finished-at="2020-04-29T04:57:35Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@19827608]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getSuitName -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:57:35Z" name="setUp" finished-at="2020-04-29T04:57:35Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:57:35Z" name="initialize" finished-at="2020-04-29T04:57:35Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="reports_CriteriaBasedListing()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:57:35Z" name="reports_CriteriaBasedListing" finished-at="2020-04-29T04:58:32Z" duration-ms="56800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_CriteriaBasedListing -->
+        <test-method signature="reports_NonSubListing()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:58:32Z" name="reports_NonSubListing" finished-at="2020-04-29T04:59:34Z" duration-ms="62410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_NonSubListing -->
+        <test-method signature="reports_bundleTop()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T04:59:34Z" name="reports_bundleTop" finished-at="2020-04-29T05:00:27Z" duration-ms="53283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_bundleTop -->
+        <test-method signature="reports_manifest_aamReport()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:00:27Z" name="reports_manifest_aamReport" finished-at="2020-04-29T05:01:20Z" duration-ms="52661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_manifest_aamReport -->
+        <test-method signature="reports_manifest_dailyCashDistributor()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:01:20Z" name="reports_manifest_dailyCashDistributor" finished-at="2020-04-29T05:02:13Z" duration-ms="52787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_manifest_dailyCashDistributor -->
+        <test-method signature="reports_manifest_deliveryTruck()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:02:13Z" name="reports_manifest_deliveryTruck" finished-at="2020-04-29T05:03:06Z" duration-ms="53132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_manifest_deliveryTruck -->
+        <test-method signature="reports_manifest_deliveryTruckLoading()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:03:06Z" name="reports_manifest_deliveryTruckLoading" finished-at="2020-04-29T05:03:58Z" duration-ms="52608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_manifest_deliveryTruckLoading -->
+        <test-method signature="reports_manifest_deliveryTruckRelay()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:03:58Z" name="reports_manifest_deliveryTruckRelay" finished-at="2020-04-29T05:04:22Z" duration-ms="23831" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reports_manifest_deliveryTruckRelay -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:04:22Z" name="tearDown" finished-at="2020-04-29T05:04:22Z" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.test.CircPro_ReportsBundleTopsManifestsTest@53ce2392]" started-at="2020-04-29T05:04:22Z" name="afterSuite" finished-at="2020-04-29T05:04:23Z" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.test.CircPro_ReportsBundleTopsManifestsTest -->
+    </test> <!-- TC-7 -->
+  </suite> <!-- NCP_POM -->
+</testng-results>

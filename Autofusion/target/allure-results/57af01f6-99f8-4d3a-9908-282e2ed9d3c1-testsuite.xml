@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584957469353" stop="1584957545273" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-6</name>
+    <title>NCP_POM : TC-6</title>
+    <test-cases>
+        <test-case start="1584957469355" stop="1584957545140" status="passed">
+            <name>dailyPublicationTest</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-6"/>
+                <label name="testClass" value="com.test.CircPro_RunProcessing_PublishingTest"/>
+                <label name="testMethod" value="dailyPublicationTest"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="35564@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

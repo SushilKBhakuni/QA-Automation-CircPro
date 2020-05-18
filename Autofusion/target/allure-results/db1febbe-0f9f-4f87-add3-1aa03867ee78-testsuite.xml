@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588100308605" stop="1588100386829" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-7</name>
+    <title>NCP_POM : TC-7</title>
+    <test-cases>
+        <test-case start="1588100308607" stop="1588100361475" status="passed">
+            <name>reports_manifest_dailyCashDistributor</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_dailyCashDistributor"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="9388@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1588100361480" stop="1588100386594" status="broken">
+            <name>reports_manifest_deliveryTruckLoading</name>
+            <failure>
+                <message>RuntimeException: Unexpected result for screenshot command: null</message>
+                <stack-trace>java.lang.RuntimeException: Unexpected result for screenshot command: null&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:391)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.enterEmailID(CircPro_ReportsBundleTopsManifests.java:237)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckLoading_pdf(CircPro_ReportsBundleTopsManifestsTest.java:175)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckLoading(CircPro_ReportsBundleTopsManifestsTest.java:68)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruckLoading"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="9388@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

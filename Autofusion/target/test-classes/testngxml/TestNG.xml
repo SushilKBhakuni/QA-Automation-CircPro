@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutofusionRegressionSuite" verbose="1" preserve-order= "true" 
+parallel="classes" thread-count="1">
+
+	<test name="SmokeTest-Naviga-xyzApplication" verbose="1" preserve-order= "true">
+		<classes>
+   		    <class name="com.test.CircPro_LoginTest"/>
+			<class name="com.test.CircPro_RunProcessing_PublishingTest"/>
+		</classes>
+
+	 	<!-- <groups>
+   		    <class name="com.test.CircPro_LoginTest"/>
+            <class name="com.test.CircPro_DistributionTest"/>
+			<class name="com.test.CircPro_SubscriptionTest"/>
+			<class name="com.test.CircPro_MailLablesTest"/>
+			<class name="com.test.CircPro_RunProcessing_PublishingTest"/>
+			<class name="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+		    <class name="com.test.CircPro_RoutesTest"/>
+		<run>
+			<include name="regression" />
+			<exclude name="incomplete" />
+			<class name="com.test.CircPro_firstTest">
+`	`		`	``	`	`		`	`	`	 			</run>2121
+	 </groups> -->
+
+     <!--  <parameter name="browser" value="chrome"/>
+	 <parameter name="executionEnviroment" value="qa"/>
+	 <parameter name="runOnMachine" value="127.0.0.1"/>
+	 <parameter name="projectPath" value="C:\\Autofusion\\"/>
+	 <parameter name="device" value="web"/>
+	 <class name="com.ncs.hoh.poc.NCS_hoh_TestCase"/>
+	 <parameter name="releaseVersion" value="3.5"/>-->		
+	</test>
+</suite>

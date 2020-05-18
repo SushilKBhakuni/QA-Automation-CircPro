@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1585038117773" stop="1585038260342" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-7</name>
+    <title>NCP_POM : TC-7</title>
+    <test-cases>
+        <test-case start="1585038117776" stop="1585038160099" status="passed">
+            <name>reports_bundleTop</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_bundleTop"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="16116@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585038160100" stop="1585038200464" status="passed">
+            <name>reports_manifest_deliveryTruck</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruck"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="16116@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585038200466" stop="1585038240414" status="passed">
+            <name>reports_manifest_deliveryTruckLoading</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruckLoading"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="16116@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1585038240417" stop="1585038260228" status="passed">
+            <name>reports_manifest_deliveryTruckRelay</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruckRelay"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="16116@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

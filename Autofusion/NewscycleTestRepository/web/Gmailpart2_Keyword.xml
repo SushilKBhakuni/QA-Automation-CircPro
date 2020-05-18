@@ -1,0 +1,28 @@
+<OR>
+
+	<gmailun> 
+		<xpath>//input[@id='username']</xpath>
+	</gmailun>
+	
+	<gmailpass> 
+		<xpath>//input[@name='Passwd']</xpath>
+	</gmailpass>
+	
+	<gmailcpass> 
+		<xpath>//input[@name='ConfirmPasswd']</xpath>
+	</gmailcpass>
+	
+	<gmailnext> 
+		<xpath>//span[text()='Next']</xpath>
+	</gmailnext>
+	
+	<gmailFirstname> 
+		<id>firstName</id>
+	</gmailFirstname>
+
+	<gmailastname> 
+		<id>lastName</id>
+	</gmailastname>
+
+
+</OR> 

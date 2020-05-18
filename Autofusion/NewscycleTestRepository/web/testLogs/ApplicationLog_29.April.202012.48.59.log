@@ -1,0 +1,351 @@
+29/04/2020 00:48:59 automation  initializeLogger D:\Framework\Autofusion3.7\NewscycleTestRepository :: web - 29.April.202012.48.59
+29/04/2020 00:48:59 automation Logger Initiated
+29/04/2020 00:48:59 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+29/04/2020 00:48:59 automation User config loaded
+29/04/2020 00:48:59 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+29/04/2020 00:48:59 automation User config loaded
+29/04/2020 00:49:01 automation Reading Environment configuration file
+29/04/2020 00:49:01 automation Reading D:\Framework\Autofusion3.7\NewscycleTestRepository\Config.xlsx
+29/04/2020 00:49:02 automation Reading Configurations
+29/04/2020 00:49:02 automation Reading readEnviromentsUrls
+29/04/2020 00:49:02 automation Reading readEnviromentsUrls
+29/04/2020 00:49:02 automation Reading Email
+29/04/2020 00:49:13 automation Inside findElement
+29/04/2020 00:49:13 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+29/04/2020 00:49:13 automation  Root element  :OR
+29/04/2020 00:49:13 automation  element :validusername = 1
+29/04/2020 00:49:13 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+29/04/2020 00:49:13 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:13 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+29/04/2020 00:49:14 automation Inside findElement
+29/04/2020 00:49:14 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+29/04/2020 00:49:14 automation  Root element  :OR
+29/04/2020 00:49:14 automation  element :password = 1
+29/04/2020 00:49:14 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+29/04/2020 00:49:14 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:14 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+29/04/2020 00:49:15 automation Func:Click
+29/04/2020 00:49:15 automation Inside findElement
+29/04/2020 00:49:15 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+29/04/2020 00:49:15 automation  Root element  :OR
+29/04/2020 00:49:15 automation  element :loginButton = 1
+29/04/2020 00:49:15 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+29/04/2020 00:49:15 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:15 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+29/04/2020 00:49:16 automation Func:Static Click
+29/04/2020 00:49:17 automation Inside type
+29/04/2020 00:49:17 automation Inside findElement
+29/04/2020 00:49:17 automation XML  reading start || getElement : elementName = errorMessage1 runningComponentName=CircPro_Login
+29/04/2020 00:49:17 automation  Root element  :OR
+29/04/2020 00:49:17 automation  element :errorMessage1 = 1
+29/04/2020 00:49:17 automation XML reading done ||  getElement : elementValue = //font[text()='Incorrect log in.']
+29/04/2020 00:49:17 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:17 automation 
+--------- Element Found : Locator=By.xpath: //font[text()='Incorrect log in.']
+29/04/2020 00:49:17 automation  verifyText Incorrect log in.
+29/04/2020 00:49:17 automation Inside findElement
+29/04/2020 00:49:17 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+29/04/2020 00:49:17 automation  Root element  :OR
+29/04/2020 00:49:17 automation  element :validusername = 1
+29/04/2020 00:49:17 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+29/04/2020 00:49:17 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:17 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+29/04/2020 00:49:18 automation Inside findElement
+29/04/2020 00:49:18 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+29/04/2020 00:49:18 automation  Root element  :OR
+29/04/2020 00:49:18 automation  element :password = 1
+29/04/2020 00:49:18 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+29/04/2020 00:49:18 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:18 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+29/04/2020 00:49:19 automation Func:Click
+29/04/2020 00:49:19 automation Inside findElement
+29/04/2020 00:49:19 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+29/04/2020 00:49:19 automation  Root element  :OR
+29/04/2020 00:49:19 automation  element :loginButton = 1
+29/04/2020 00:49:19 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+29/04/2020 00:49:19 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:19 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+29/04/2020 00:49:20 automation Func:Static Click
+29/04/2020 00:49:20 automation Inside type
+29/04/2020 00:49:20 automation Inside findElement
+29/04/2020 00:49:20 automation XML  reading start || getElement : elementName = errorMessage1 runningComponentName=CircPro_Login
+29/04/2020 00:49:20 automation  Root element  :OR
+29/04/2020 00:49:20 automation  element :errorMessage1 = 1
+29/04/2020 00:49:20 automation XML reading done ||  getElement : elementValue = //font[text()='Incorrect log in.']
+29/04/2020 00:49:20 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:20 automation 
+--------- Element Found : Locator=By.xpath: //font[text()='Incorrect log in.']
+29/04/2020 00:49:21 automation  verifyText Incorrect log in.
+29/04/2020 00:49:21 automation Inside findElement
+29/04/2020 00:49:21 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+29/04/2020 00:49:21 automation  Root element  :OR
+29/04/2020 00:49:21 automation  element :validusername = 1
+29/04/2020 00:49:21 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+29/04/2020 00:49:21 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:21 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+29/04/2020 00:49:22 automation Inside findElement
+29/04/2020 00:49:22 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+29/04/2020 00:49:22 automation  Root element  :OR
+29/04/2020 00:49:22 automation  element :password = 1
+29/04/2020 00:49:22 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+29/04/2020 00:49:22 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:22 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+29/04/2020 00:49:23 automation Func:Click
+29/04/2020 00:49:23 automation Inside findElement
+29/04/2020 00:49:23 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+29/04/2020 00:49:23 automation  Root element  :OR
+29/04/2020 00:49:23 automation  element :loginButton = 1
+29/04/2020 00:49:23 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+29/04/2020 00:49:23 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:23 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+29/04/2020 00:49:23 automation Func:Static Click
+29/04/2020 00:49:24 automation Inside findElement
+29/04/2020 00:49:24 automation XML  reading start || getElement : elementName = Clickterminate runningComponentName=CircPro_Login
+29/04/2020 00:49:24 automation  Root element  :OR
+29/04/2020 00:49:24 automation  element :Clickterminate = 1
+29/04/2020 00:49:24 automation XML reading done ||  getElement : elementValue = //input[contains(@value,'Terminate')]
+29/04/2020 00:49:24 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:24 automation 
+--------- Element Found : Locator=By.xpath: //input[contains(@value,'Terminate')]
+29/04/2020 00:49:25 automation Func:Static Click
+29/04/2020 00:49:25 automation To check if element is displayed
+29/04/2020 00:49:25 automation Inside findElement
+29/04/2020 00:49:25 automation XML  reading start || getElement : elementName = verifyload runningComponentName=CircPro_Login
+29/04/2020 00:49:25 automation  Root element  :OR
+29/04/2020 00:49:25 automation  element :verifyload = 1
+29/04/2020 00:49:25 automation XML reading done ||  getElement : elementValue = //a[text()='Support']
+29/04/2020 00:49:25 automation inside waitForVisibilityOfElement
+29/04/2020 00:49:26 automation 
+--------- Element Found : Locator=By.xpath: //a[text()='Support']
+29/04/2020 00:49:28 automation endReport : java.io.FileNotFoundException: src\test\resources\essentials\web\report\Browser\chrome\29.April.2020 12.49.01 (The system cannot find the path specified)
+29/04/2020 00:49:28 automation Func:Click
+29/04/2020 00:49:28 automation Inside findElement
+29/04/2020 00:49:28 automation XML  reading start || getElement : elementName = allReports runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:28 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:28 automation Element not found in the  xml
+29/04/2020 00:49:28 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:28 automation Func:Static Click
+29/04/2020 00:49:28 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:28 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:29 automation Func:Click
+29/04/2020 00:49:29 automation Inside findElement
+29/04/2020 00:49:29 automation XML  reading start || getElement : elementName = bundleTops runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:29 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:29 automation Element not found in the  xml
+29/04/2020 00:49:29 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:29 automation Func:Static Click
+29/04/2020 00:49:29 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:29 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:29 automation Func:Click
+29/04/2020 00:49:29 automation Inside findElement
+29/04/2020 00:49:29 automation XML  reading start || getElement : elementName = selectionSettingsUser runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:29 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:29 automation Element not found in the  xml
+29/04/2020 00:49:29 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:29 automation Func:Static Click
+29/04/2020 00:49:29 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:29 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:29 automation Func:Click
+29/04/2020 00:49:29 automation Inside findElement
+29/04/2020 00:49:29 automation XML  reading start || getElement : elementName = selectionSettingsSavedPrevious runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:30 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:30 automation Element not found in the  xml
+29/04/2020 00:49:30 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:30 automation Func:Static Click
+29/04/2020 00:49:30 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:30 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:30 automation Func:Click
+29/04/2020 00:49:30 automation Inside findElement
+29/04/2020 00:49:30 automation XML  reading start || getElement : elementName = runButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:30 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:30 automation Element not found in the  xml
+29/04/2020 00:49:30 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:30 automation Func:Static Click
+29/04/2020 00:49:30 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:30 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:30 automation Func:Click
+29/04/2020 00:49:30 automation Inside findElement
+29/04/2020 00:49:30 automation XML  reading start || getElement : elementName = pdfLink runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:30 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:30 automation Element not found in the  xml
+29/04/2020 00:49:30 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:30 automation Func:Static Click
+29/04/2020 00:49:30 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:30 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:31 automation Inside findElement
+29/04/2020 00:49:31 automation XML  reading start || getElement : elementName = enterEmailId2 runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:31 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:31 automation Element not found in the  xml
+29/04/2020 00:49:31 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:31 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:31 automation Func:Click
+29/04/2020 00:49:31 automation Inside findElement
+29/04/2020 00:49:31 automation XML  reading start || getElement : elementName = clickSendEmail2 runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:31 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:31 automation Element not found in the  xml
+29/04/2020 00:49:31 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:31 automation Func:Static Click
+29/04/2020 00:49:31 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:31 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:32 automation To check if element is displayed
+29/04/2020 00:49:32 automation Inside findElement
+29/04/2020 00:49:32 automation XML  reading start || getElement : elementName = EmailSentMessage runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:32 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:32 automation Element not found in the  xml
+29/04/2020 00:49:32 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:32 automation Inside dateParameter : null
+29/04/2020 00:49:32 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:32 automation Func:Click
+29/04/2020 00:49:32 automation Inside findElement
+29/04/2020 00:49:32 automation XML  reading start || getElement : elementName = backButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:32 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:32 automation Element not found in the  xml
+29/04/2020 00:49:32 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:32 automation Func:Static Click
+29/04/2020 00:49:32 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:32 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:33 automation Func:Click
+29/04/2020 00:49:33 automation Inside findElement
+29/04/2020 00:49:33 automation XML  reading start || getElement : elementName = reportFormatBrowser runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:33 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:33 automation Element not found in the  xml
+29/04/2020 00:49:33 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:33 automation Func:Static Click
+29/04/2020 00:49:33 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:33 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:33 automation Func:Click
+29/04/2020 00:49:33 automation Inside findElement
+29/04/2020 00:49:33 automation XML  reading start || getElement : elementName = runButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:33 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:33 automation Element not found in the  xml
+29/04/2020 00:49:33 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:33 automation Func:Static Click
+29/04/2020 00:49:33 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:33 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:34 automation To check if element is displayed
+29/04/2020 00:49:34 automation Inside findElement
+29/04/2020 00:49:34 automation XML  reading start || getElement : elementName = Message1 runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:34 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:34 automation Element not found in the  xml
+29/04/2020 00:49:34 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:34 automation Inside dateParameter : null
+29/04/2020 00:49:34 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:34 automation Func:Click
+29/04/2020 00:49:34 automation Inside findElement
+29/04/2020 00:49:34 automation XML  reading start || getElement : elementName = backButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:34 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:34 automation Element not found in the  xml
+29/04/2020 00:49:34 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:34 automation Func:Static Click
+29/04/2020 00:49:34 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:34 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:35 automation Func:Click
+29/04/2020 00:49:35 automation Inside findElement
+29/04/2020 00:49:35 automation XML  reading start || getElement : elementName = reportFormatCSV runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:35 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:35 automation Element not found in the  xml
+29/04/2020 00:49:35 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:35 automation Func:Static Click
+29/04/2020 00:49:35 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:35 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:35 automation Func:Click
+29/04/2020 00:49:35 automation Inside findElement
+29/04/2020 00:49:35 automation XML  reading start || getElement : elementName = runButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:35 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:35 automation Element not found in the  xml
+29/04/2020 00:49:35 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:35 automation Func:Static Click
+29/04/2020 00:49:35 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:35 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:36 automation Func:Click
+29/04/2020 00:49:36 automation Inside findElement
+29/04/2020 00:49:36 automation XML  reading start || getElement : elementName = csvLink runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:36 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:36 automation Element not found in the  xml
+29/04/2020 00:49:36 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:36 automation Func:Static Click
+29/04/2020 00:49:36 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:36 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:37 automation Inside findElement
+29/04/2020 00:49:37 automation XML  reading start || getElement : elementName = Email runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:37 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:37 automation Element not found in the  xml
+29/04/2020 00:49:37 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:37 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:37 automation Func:Click
+29/04/2020 00:49:37 automation Inside findElement
+29/04/2020 00:49:37 automation XML  reading start || getElement : elementName = emailfile runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:37 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:37 automation Element not found in the  xml
+29/04/2020 00:49:37 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:37 automation Func:Static Click
+29/04/2020 00:49:37 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:37 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:38 automation To check if element is displayed
+29/04/2020 00:49:38 automation Inside findElement
+29/04/2020 00:49:38 automation XML  reading start || getElement : elementName = EmailSentMessage runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:38 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:38 automation Element not found in the  xml
+29/04/2020 00:49:38 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:38 automation Inside dateParameter : null
+29/04/2020 00:49:38 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:39 automation Func:Click
+29/04/2020 00:49:39 automation Inside findElement
+29/04/2020 00:49:39 automation XML  reading start || getElement : elementName = backButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:39 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:39 automation Element not found in the  xml
+29/04/2020 00:49:39 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:39 automation Func:Static Click
+29/04/2020 00:49:39 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:39 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:39 automation Func:Click
+29/04/2020 00:49:39 automation Inside findElement
+29/04/2020 00:49:39 automation XML  reading start || getElement : elementName = reportFormatText runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:39 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:39 automation Element not found in the  xml
+29/04/2020 00:49:39 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:39 automation Func:Static Click
+29/04/2020 00:49:39 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:39 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:40 automation Func:Click
+29/04/2020 00:49:40 automation Inside findElement
+29/04/2020 00:49:40 automation XML  reading start || getElement : elementName = runButton runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:40 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:40 automation Element not found in the  xml
+29/04/2020 00:49:40 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:40 automation Func:Static Click
+29/04/2020 00:49:40 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:40 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:40 automation Func:Click
+29/04/2020 00:49:40 automation Inside findElement
+29/04/2020 00:49:40 automation XML  reading start || getElement : elementName = textLink runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:40 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:40 automation Element not found in the  xml
+29/04/2020 00:49:40 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:40 automation Func:Static Click
+29/04/2020 00:49:40 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:40 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:41 automation Inside findElement
+29/04/2020 00:49:41 automation XML  reading start || getElement : elementName = Email runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:41 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:41 automation Element not found in the  xml
+29/04/2020 00:49:41 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:41 automation Assert java.lang.AssertionError: expected [true] but found [false]
+29/04/2020 00:49:41 automation Func:Click
+29/04/2020 00:49:41 automation Inside findElement
+29/04/2020 00:49:41 automation XML  reading start || getElement : elementName = emailfile runningComponentName=CircPro_ReportsBundleTopsManifests
+29/04/2020 00:49:41 automation org.xml.sax.SAXParseException; systemId: file:/D:/Framework/Autofusion3.7/NewscycleTestRepository/web/CircPro_ReportsBundleTopsManifests.xml; lineNumber: 451; columnNumber: 4; The element type "enterEmailId2" must be terminated by the matching end-tag "</enterEmailId2>".
+29/04/2020 00:49:41 automation Element not found in the  xml
+29/04/2020 00:49:41 automation getElementAttribute XML reading getElement : java.lang.NullPointerException
+29/04/2020 00:49:41 automation Func:Static Click
+29/04/2020 00:49:41 automation Func:Static Click Exception=java.lang.NullPointerException
+29/04/2020 00:49:41 automation Assert java.lang.AssertionError: expected [true] but found [false]

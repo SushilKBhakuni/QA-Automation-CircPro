@@ -1,0 +1,55 @@
+<OR>
+    <MobileIdIcon> 
+		<xpath>//android.widget.TextView[@text='Mobile ID']</xpath>
+	</MobileIdIcon>
+	
+	<LaunchId>
+		<xpath>//*[@text='Launch ID']</xpath>
+	</LaunchId>
+	
+	<SprintIdContinueButton>
+		<id>com.sprint.w.installer:id/btCancel</id>	
+	</SprintIdContinueButton>
+	
+	<SprintIdInstallButton>
+		<id>com.sprint.w.installer:id/btRetry</id>	
+	</SprintIdInstallButton>
+	
+	<ContinueToSprintIDApp>
+		<id>com.sprint.w.installer:id/next</id>
+	</ContinueToSprintIDApp>
+	
+	<MoreOptionsOnSprintIDApp>
+		<xpath>//*[@class='android.widget.ImageButton']</xpath>
+	</MoreOptionsOnSprintIDApp>
+	
+	<ClickOkOnPopUp>
+		<xpath>//*[@text='OK']</xpath>
+	</ClickOkOnPopUp>
+	
+	<ManageIDPacks>
+		<xpath>//*[@text='Manage ID Packs']</xpath>
+	</ManageIDPacks>
+	
+	<SprintDefaultButton>
+	<xpath>//*[@text='Sprint Default']</xpath>
+	</SprintDefaultButton>
+	
+	<Applications>
+		<xpath>//*[@text='Applications']</xpath>
+	</Applications>
+	
+	<KillApp>
+		<id>com.android.systemui:id/dismiss_task</id>
+	</KillApp>
+	
+	<UberApp>
+		<xpath>//android.widget.TextView[@text='Uber']</xpath>
+	</UberApp>
+	
+	<VerifyUberLogo>
+		<id>com.ubercab:id/onboarding_uber_logo</id>
+	</VerifyUberLogo>
+	
+	
+ </OR> 

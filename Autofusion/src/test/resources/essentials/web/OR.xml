@@ -1,0 +1,249 @@
+<OR>
+	
+<DashboardAccountTab>
+<css>.navigation-sidebar a[href*='account-management </css>
+</DashboardAccountTab>
+
+<AccountPlusButton>
+<css>  button.btn-success</css>
+</AccountPlusButton>
+	
+<CreateAccountName>
+<css>.side-panel.modal-dialog .modal-content input#accountName </css>
+</CreateAccountName>	
+
+
+<CreateAccountCancelButton>
+<css>#cancel-btn </css>
+</CreateAccountCancelButton>
+
+<CreateAccountAddButton>
+<css>.modal-footer button[type='submit']
+ </css>
+</CreateAccountAddButton>
+
+<CreatAccountBrandDropDown>
+<css> [for='accountBrand']+.input-group #select</css>
+</CreatAccountBrandDropDown>
+
+<CreatAccountBrandSelectedValue>
+<css> [for='accountBrand']+.input-group #select .dropdown-select__selected-item span </css>
+</CreatAccountBrandSelectedValue>
+
+
+<CreateAccountTypeValue>
+<css> [for='accountType']+.input-group .dropdown-menu li:not(.hidden) div.dropdown-select__option-label</css>
+</CreateAccountTypeValue>
+
+<AccountTypeDropDown>
+<css>[for='accountType']+.input-group #select
+</css>
+</AccountTypeDropDown>
+
+<AccountCreatesToastMessage>
+<css>  .notification-transition .notification-panel
+</css>
+</AccountCreatesToastMessage>
+
+<AccountSearchButton>
+<css> 
+.search-input.form-control
+</css>
+</AccountSearchButton>
+
+
+<CreateDrwaer>
+<css>.side-panel.modal-dialog .modal-content
+</css>
+</CreateDrwaer>
+
+<accountNameListView>
+<css>.table-striped tbody tr:nth-child(1) td:nth-child(1)
+
+</css>
+</accountNameListView>
+
+<accountTypeListView>
+<css>.table-striped tbody tr:nth-child(1) td:nth-child(2)
+</css>
+</accountTypeListView>
+
+<accountBrandListView>
+<css> .table-striped tbody tr:nth-child(1) td:nth-child(4)
+</css>
+</accountBrandListView>
+
+<NoRecordFound>
+<css>table-striped tbody #empty-msg
+</css>
+</NoRecordFound>
+
+<DeleteButtonListView>
+<css>.table-striped tbody tr:nth-child(1) td.nowrap-column button.delete-button
+</css>
+</DeleteButtonListView>
+
+<DeleteButtonModalDialog>
+<css>.modal-content form .modal-button-toolbar .btn-danger
+</css>
+</DeleteButtonModalDialog>
+
+<CancelButtonModalDialog>
+<css>.modal-content form .modal-button-toolbar .btn-secondary
+</css>
+</CancelButtonModalDialog>
+
+<deleteModalConfirmationInputField>
+<css> .modal-content form #modalField</css>
+</deleteModalConfirmationInputField>
+
+<deleteConfirmationForm >
+<css>.modal-content form
+
+</css>
+</deleteConfirmationForm>
+
+<userProfileMenu>
+<css>
+.dropdown-user-menu
+</css>
+</userProfileMenu>
+
+<ThemeSelectionDropdown>
+<css>.dropdown-user-menu #select</css>
+</ThemeSelectionDropdown>
+
+<selectedThemeTitle>
+<css>.dropdown-select__selected-item .theme-title</css>
+</selectedThemeTitle>
+
+<unselectedTheme>
+<css>.dropdown-user-menu .dropdown-menu li:not(.hidden) a</css>
+</unselectedTheme>
+
+<errorMessageAccountValidation>
+<css>
+.modal-content .error-msg.help-block
+</css>
+</errorMessageAccountValidation>
+
+
+
+<userProfile>
+<css>
+#user-menu
+</css>
+</userProfile>
+
+
+
+
+	<LoginUserNameTextBox>
+		<css>input#username</css>
+	</LoginUserNameTextBox>
+
+	<LoginPasswordTextBox>
+		<css>input#password</css>
+	</LoginPasswordTextBox>
+
+	<LoginSubmitButton>
+		<css>button.pull-right.btn.btn-primary</css>
+	</LoginSubmitButton>
+	
+<AccountTypeValue>
+<css> [for='accountType']+.input-group .dropdown-menu li:not(.hidden) div.dropdown-select__option-label</css>
+</AccountTypeValue>
+
+
+
+	
+<AccountEditButton>
+<css>button.btn.btn-icon.edit-button.btn.btn-default
+</css>
+</AccountEditButton>
+<AccountNameTextField>
+<css>input#accountName</css>
+</AccountNameTextField>	
+
+<AccountSaveButton>
+<css>button.btn.btn-primary</css>
+</AccountSaveButton>
+
+<AccountCancelButton>
+<css>#cancel-btn</css>
+</AccountCancelButton>
+
+<AccountServiceButton>
+<css>
+.off-text
+</css></AccountServiceButton>
+
+<AccountDetailsUpdateMsg>
+<css>
+.notification-panel>span
+</css></AccountDetailsUpdateMsg>
+
+<AccountClickBrandButton>
+<css>#select</css>
+</AccountClickBrandButton>
+
+<AccountDisableButton>
+<css>.flex-item>span</css>
+</AccountDisableButton>
+
+<AccountSearchIcon>
+<css></css>
+</AccountSearchIcon>
+
+<AccountDropdown>
+<css>.page-header-container .selector-component__toggle</css>
+</AccountDropdown>
+
+<GroupSearchTextBox>
+<css>.content-layout .header-search-input</css>
+</GroupSearchTextBox>
+
+<AccountNameSearchResult>
+<css>.content-layout .menu-container .scrollable-menu li:nth-child(1) a.name-container</css>
+</AccountNameSearchResult>
+<GroupTab>
+<css>li[data-eventkey='groups'] a span</css>
+</GroupTab>
+
+<GroupAddPlusButton>
+<css>.account-management-account-groups .btn-success</css>
+</GroupAddPlusButton>
+
+<GroupNameTextField>
+<css>.modal-content .input-group #name</css>
+</GroupNameTextField>	
+
+<GroupCreatFormCancelButton>
+<css>.modal-content #cancel-btn</css>
+</GroupCreatFormCancelButton>
+
+<GroupCreatFormAddButton>
+<css>.modal-content button[type='submit']</css>
+</GroupCreatFormAddButton>
+
+
+<GroupCreatSuccfulllyMsg>
+<css>.notification-panel>span</css>
+</GroupCreatSuccfulllyMsg>
+
+<GroupCreateDrwaer>
+<css>.side-panel.modal-dialog .modal-content</css>
+</GroupCreateDrwaer>
+
+
+
+<GroupNameValidationErrorMessage>
+<css>.group-form .has-error .error-msg.help-block</css>
+</GroupNameValidationErrorMessage>
+
+<GroupEditSaveButton>
+<xpath>//button[@id='cancel-btn'] /following-sibling::button</xpath>
+</GroupEditSaveButton>
+
+
+</OR> 

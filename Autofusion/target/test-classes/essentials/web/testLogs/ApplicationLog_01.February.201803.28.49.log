@@ -1,0 +1,180 @@
+01/02/2018 15:28:49 automation  initializeLogger src//test//resources//essentials// :: web - 01.February.201803.28.49
+01/02/2018 15:28:49 automation Logger Initiated
+01/02/2018 15:28:49 automation Reading Environment configuration file
+01/02/2018 15:28:49 automation Reading src//test//resources//essentials//\Config.xlsx
+01/02/2018 15:28:50 automation Reading Configurations
+01/02/2018 15:28:50 automation Reading readEnviromentsUrls
+01/02/2018 15:28:50 automation Reading readEnviromentsUrls
+01/02/2018 15:28:50 automation Reading Email
+01/02/2018 15:28:50 automation config Initiated :src//test//resources//essentials//
+01/02/2018 15:28:50 automation config file not Initiatedjava.io.FileNotFoundException: src\test\resources\essentials\config.properties (The system cannot find the file specified)
+01/02/2018 15:28:50 automation config Initiated :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository
+01/02/2018 15:28:50 automation User config loaded
+01/02/2018 15:28:50 automation The base  path b4 calling initilzise in initializeWebScript --- D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository
+01/02/2018 15:28:50 automation  initializeLogger D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository :: web - 01.February.201803.28.50
+01/02/2018 15:28:50 automation Logger Initiated
+01/02/2018 15:28:51 automation selectBatchId sql : select batchid from batchdetail where environment = 'qa' and device ='web'
+01/02/2018 15:28:51 automation selectBatchId batchId : 123
+01/02/2018 15:28:51 automation updateBatchId sql : update batchdetail set batchid = 124 where environment = 'qa' and device = 'web'
+01/02/2018 15:28:51 automation reportPath :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository\\web//report//Browser\\firefox\\01.February.2018 03.28.50
+01/02/2018 15:28:51 automation Method : reportHeader => start
+01/02/2018 15:28:51 automation Method : reportHeader => end
+01/02/2018 15:28:51 automation executeTestSuites
+01/02/2018 15:28:51 automation Data Row:PracticeHomeSuite firefox
+01/02/2018 15:28:51 automation Function executeWebTestCase : Starting Execution.... 
+01/02/2018 15:28:51 automation [Function executeWebTestCase] Suite Name :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository\web\TestCases\PracticeHomeSuite.xlsx
+01/02/2018 15:28:51 automation [Function executeWebTestCase] Test Case: TC-1 => Runmode = Y
+01/02/2018 15:28:51 automation Method : isRunableMode => runmodeFlag = Y
+01/02/2018 15:28:51 automation Method : executeCommonSteps => Common Step found = CS-1
+01/02/2018 15:28:51 automation currentKeyword :open || tsid:CTS-1 || tcid:CS-1 || object: || data:
+01/02/2018 15:28:51 automation assignData : 
+01/02/2018 15:28:51 automation regenerateData : 
+01/02/2018 15:28:51 automation regenerateData : 
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-1','CTS-1','open','Open practice portal','qa','','','FAIL','TC-1_CTS-1_open.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.51','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 2 || TestStepsCaseId: CS-1
+01/02/2018 15:28:59 automation currentKeyword :click || tsid:CTS-2 || tcid:CS-1 || object:GmailButton || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation Func:Click
+01/02/2018 15:28:59 automation Inside findElement
+01/02/2018 15:28:59 automation XML  reading start || getElement : elementName = GmailButton runningComponentName=PracticeHomeSuite
+01/02/2018 15:28:59 automation  Root element  :OR
+01/02/2018 15:28:59 automation  element :GmailButton = 1
+01/02/2018 15:28:59 automation XML reading done ||  getElement : elementValue = //a[@class='rc-button rc-button-submit']
+01/02/2018 15:28:59 automation inside waitForVisibilityOfElement
+01/02/2018 15:28:59 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //a[@class='rc-button rc-button-submit']
+01/02/2018 15:28:59 automation Func:Static Click
+01/02/2018 15:28:59 automation Func:Static Click Exception=java.lang.NullPointerException
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-1','CTS-2','click','Click on gmailbutton','qa','','','FAIL','TC-1_CTS-2_click.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 3 || TestStepsCaseId: CS-1
+01/02/2018 15:28:59 automation currentKeyword :type || tsid:CTS-3 || tcid:CS-1 || object:HomeUserName || data:CONFIG|GLO_USER_NAME
+01/02/2018 15:28:59 automation assignData : CONFIG|GLO_USER_NAME
+01/02/2018 15:28:59 automation regenerateData : CONFIG|GLO_USER_NAME
+01/02/2018 15:28:59 automation regenerateData : CONFIG|GLO_USER_NAME
+01/02/2018 15:28:59 automation Func: Type|| inputValue=CONFIG|GLO_USER_NAME
+01/02/2018 15:28:59 automation Inside findElement
+01/02/2018 15:28:59 automation XML  reading start || getElement : elementName = HomeUserName runningComponentName=PracticeHomeSuite
+01/02/2018 15:28:59 automation  Root element  :OR
+01/02/2018 15:28:59 automation  element :HomeUserName = 1
+01/02/2018 15:28:59 automation XML reading done ||  getElement : elementValue = username
+01/02/2018 15:28:59 automation inside waitForVisibilityOfElement
+01/02/2018 15:28:59 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.name: username
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-1','CTS-3','type','Type Username','qa','CONFIG|GLO_USER_NAME','','FAIL','TC-1_CTS-3_type.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 4 || TestStepsCaseId: CS-1
+01/02/2018 15:28:59 automation currentKeyword :type || tsid:CTS-4 || tcid:CS-1 || object:HomePassword || data:CONFIG|GLO_PASSWORD
+01/02/2018 15:28:59 automation assignData : CONFIG|GLO_PASSWORD
+01/02/2018 15:28:59 automation regenerateData : CONFIG|GLO_PASSWORD
+01/02/2018 15:28:59 automation regenerateData : CONFIG|GLO_PASSWORD
+01/02/2018 15:28:59 automation Func: Type|| inputValue=CONFIG|GLO_PASSWORD
+01/02/2018 15:28:59 automation Inside findElement
+01/02/2018 15:28:59 automation XML  reading start || getElement : elementName = HomePassword runningComponentName=PracticeHomeSuite
+01/02/2018 15:28:59 automation  Root element  :OR
+01/02/2018 15:28:59 automation  element :HomePassword = 1
+01/02/2018 15:28:59 automation XML reading done ||  getElement : elementValue = password
+01/02/2018 15:28:59 automation inside waitForVisibilityOfElement
+01/02/2018 15:28:59 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.name: password
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-1','CTS-4','type','Type password','qa','CONFIG|GLO_PASSWORD','','FAIL','TC-1_CTS-4_type.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 5 || TestStepsCaseId: CS-1
+01/02/2018 15:28:59 automation currentKeyword :click || tsid:CTS-5 || tcid:CS-1 || object:HomeSubmit || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation Func:Click
+01/02/2018 15:28:59 automation Inside findElement
+01/02/2018 15:28:59 automation XML  reading start || getElement : elementName = HomeSubmit runningComponentName=PracticeHomeSuite
+01/02/2018 15:28:59 automation  Root element  :OR
+01/02/2018 15:28:59 automation  element :HomeSubmit = 1
+01/02/2018 15:28:59 automation XML reading done ||  getElement : elementValue = Submit
+01/02/2018 15:28:59 automation inside waitForVisibilityOfElement
+01/02/2018 15:28:59 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.name: Submit
+01/02/2018 15:28:59 automation Func:Static Click
+01/02/2018 15:28:59 automation Func:Static Click Exception=java.lang.NullPointerException
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-1','CTS-5','click','click submit button','qa','','','FAIL','TC-1_CTS-5_click.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 6 || TestStepsCaseId: CS-1
+01/02/2018 15:28:59 automation Method : executeCommonSteps => Common Step found = CS-2
+01/02/2018 15:28:59 automation currentKeyword :click || tsid:CTS-5 || tcid:CS-2 || object:WarningMsg_HomePage || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation Func:Click
+01/02/2018 15:28:59 automation Inside findElement
+01/02/2018 15:28:59 automation XML  reading start || getElement : elementName = WarningMsg_HomePage runningComponentName=PracticeHomeSuite
+01/02/2018 15:28:59 automation  Root element  :OR
+01/02/2018 15:28:59 automation  element :WarningMsg_HomePage = 1
+01/02/2018 15:28:59 automation XML reading done ||  getElement : elementValue = //div[contains(text(),'Ok, got it')]
+01/02/2018 15:28:59 automation inside waitForVisibilityOfElement
+01/02/2018 15:28:59 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //div[contains(text(),'Ok, got it')]
+01/02/2018 15:28:59 automation Func:Static Click
+01/02/2018 15:28:59 automation Func:Static Click Exception=java.lang.NullPointerException
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-2','CTS-5','click','click submit button','qa','','','FAIL','TC-1_CTS-5_click.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 7 || TestStepsCaseId: CS-2
+01/02/2018 15:28:59 automation currentKeyword :switchToFrame || tsid:CTS-1 || tcid:CS-2 || object:HomeFrame || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation inside switchToFrame
+01/02/2018 15:28:59 automation Switch frame exception
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-2','CTS-1','switchToFrame','Change Frame 1','qa','','','FAIL','TC-1_CTS-1_switchToFrame.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 8 || TestStepsCaseId: CS-2
+01/02/2018 15:28:59 automation currentKeyword :switchToFrame || tsid:CTS-2 || tcid:CS-2 || object:sandboxFrame || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation inside switchToFrame
+01/02/2018 15:28:59 automation Switch frame exception
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-2','CTS-2','switchToFrame','Change Frame 2','qa','','','FAIL','TC-1_CTS-2_switchToFrame.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 9 || TestStepsCaseId: CS-2
+01/02/2018 15:28:59 automation currentKeyword :switchToFrame || tsid:CTS-3 || tcid:CS-2 || object:userHtmlFrame || data:
+01/02/2018 15:28:59 automation assignData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation regenerateData : 
+01/02/2018 15:28:59 automation inside switchToFrame
+01/02/2018 15:28:59 automation Switch frame exception
+01/02/2018 15:28:59 automation keyword execution Failedjava.lang.NullPointerException
+01/02/2018 15:28:59 automation insertTestStepDetails SQL = insert into tbl_teststepdetail values ('PracticeHomeSuite','CS-2','CTS-3','switchToFrame','Change Frame 3','qa','','','FAIL','TC-1_CTS-3_switchToFrame.jpg','FAIL','FAIL','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation executeCommonTestCases : Common steps done
+01/02/2018 15:28:59 automation TestCaseStepsCount : 10 || TestStepsCaseId: CS-2
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Execution of Test steps done: TC-1
+01/02/2018 15:28:59 automation insertTestCaseDetails SQL = insert into tbl_testcasedetail values ('PracticeHomeSuite','TC-1','Validate Search is working','qa','FAIL','2018-02-01','2018-02-01 03.28.51','2018-02-01 03.28.59','123','Y')
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Test Case: TC-2 => Runmode = N
+01/02/2018 15:28:59 automation Method : isRunableMode => runmodeFlag = N
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Skipping Test Case: TC-2 => Runmode = N
+01/02/2018 15:28:59 automation insertTestCaseDetails SQL = insert into tbl_testcasedetail values ('PracticeHomeSuite','TC-2','Validate Search is working','qa','SKIP','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','N')
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Test Case: TC-3 => Runmode = N
+01/02/2018 15:28:59 automation Method : isRunableMode => runmodeFlag = N
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Skipping Test Case: TC-3 => Runmode = N
+01/02/2018 15:28:59 automation insertTestCaseDetails SQL = insert into tbl_testcasedetail values ('PracticeHomeSuite','TC-3','Validate All Practices Options are available','qa','SKIP','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','N')
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Test Case: TC-4 => Runmode = N
+01/02/2018 15:28:59 automation Method : isRunableMode => runmodeFlag = N
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Skipping Test Case: TC-4 => Runmode = N
+01/02/2018 15:28:59 automation insertTestCaseDetails SQL = insert into tbl_testcasedetail values ('PracticeHomeSuite','TC-4','Validate Each Practice is opening in new tab with profile information','qa','SKIP','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','N')
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Test Case: TC-5 => Runmode = N
+01/02/2018 15:28:59 automation Method : isRunableMode => runmodeFlag = N
+01/02/2018 15:28:59 automation [Function executeWebTestCase] Skipping Test Case: TC-5 => Runmode = N
+01/02/2018 15:28:59 automation insertTestCaseDetails SQL = insert into tbl_testcasedetail values ('PracticeHomeSuite','TC-5','Validate View all option is working for all section','qa','SKIP','2018-02-01','2018-02-01 03.28.59','2018-02-01 03.28.59','123','N')
+01/02/2018 15:29:00 automation [Function executeWebTestCase] Execution Done
+01/02/2018 15:29:01 automation insertAutomationSummary SELECT COUNT(suitename) cntSuiteName, SUM(totaltestcase) as ttc, SUM(pass) as p,  SUM(fail) as f, SUM(skip) as s FROM `tbl_suitedetail` WHERE batchid = 123 and environment = 'qa' and runmode='Y'
+01/02/2018 15:29:01 automation insertAutomationSummary SELECT COUNT(testcaseid) as cntTestCaseId FROM tbl_testcasedetail WHERE batchid = 123 and environment = 'qa' and runmode='Y'
+01/02/2018 15:29:01 automation insertAutomationSummary SELECT COUNT(teststepid) as cntTestStepId FROM tbl_teststepdetail WHERE batchid = 123 and enviroment = 'qa' and runmode='Y'
+01/02/2018 15:29:01 automation insertAutomationSummary sqlInsert : insert into tbl_automationsummary (suitecategory,releaseversion, executiondate, environment, totalsuite,totaltestcase,totalsteps,pass,fail,skip,browser,device, batchid,reportpath) values ('','','2018-02-01','qa',0,0,0,0,0,0, 'firefox','web','123','D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository//web//report//Browser//firefox//01.February.2018 03.28.50//ExecutionReport_01.February.2018 03.28.50.html')
+01/02/2018 15:29:01 automation insertAutomationSummary sqlInsert 1 :  update tbl_automationsummary set totaltestcase=1 where batchid = '123'
+01/02/2018 15:29:01 automation insertAutomationSummary sqlInsert 2:  update tbl_automationsummary set totalsteps=9 where batchid = '123'
+01/02/2018 15:29:01 automation Method : Main => Exception = java.lang.NullPointerExceptionScript Killed due to exception
+01/02/2018 15:29:01 automation Method : Main => Automation Script End

@@ -1,0 +1,231 @@
+28/04/2020 21:13:43 automation  initializeLogger D:\Framework\Autofusion3.7\NewscycleTestRepository :: web - 28.April.202009.13.42
+28/04/2020 21:13:43 automation Logger Initiated
+28/04/2020 21:13:43 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+28/04/2020 21:13:43 automation User config loaded
+28/04/2020 21:13:43 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+28/04/2020 21:13:43 automation User config loaded
+28/04/2020 21:13:45 automation Reading Environment configuration file
+28/04/2020 21:13:45 automation Reading D:\Framework\Autofusion3.7\NewscycleTestRepository\Config.xlsx
+28/04/2020 21:13:45 automation Reading Configurations
+28/04/2020 21:13:45 automation Reading readEnviromentsUrls
+28/04/2020 21:13:45 automation Reading readEnviromentsUrls
+28/04/2020 21:13:45 automation Reading Email
+28/04/2020 21:13:56 automation Inside findElement
+28/04/2020 21:13:56 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+28/04/2020 21:13:56 automation  Root element  :OR
+28/04/2020 21:13:56 automation  element :validusername = 1
+28/04/2020 21:13:56 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+28/04/2020 21:13:56 automation inside waitForVisibilityOfElement
+28/04/2020 21:13:56 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+28/04/2020 21:13:57 automation Inside findElement
+28/04/2020 21:13:57 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+28/04/2020 21:13:57 automation  Root element  :OR
+28/04/2020 21:13:57 automation  element :password = 1
+28/04/2020 21:13:57 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+28/04/2020 21:13:57 automation inside waitForVisibilityOfElement
+28/04/2020 21:13:57 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+28/04/2020 21:13:58 automation Func:Click
+28/04/2020 21:13:58 automation Inside findElement
+28/04/2020 21:13:58 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+28/04/2020 21:13:58 automation  Root element  :OR
+28/04/2020 21:13:58 automation  element :loginButton = 1
+28/04/2020 21:13:58 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+28/04/2020 21:13:58 automation inside waitForVisibilityOfElement
+28/04/2020 21:13:58 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+28/04/2020 21:13:59 automation Func:Static Click
+28/04/2020 21:13:59 automation Inside type
+28/04/2020 21:13:59 automation Inside findElement
+28/04/2020 21:13:59 automation XML  reading start || getElement : elementName = errorMessage1 runningComponentName=CircPro_Login
+28/04/2020 21:13:59 automation  Root element  :OR
+28/04/2020 21:13:59 automation  element :errorMessage1 = 1
+28/04/2020 21:13:59 automation XML reading done ||  getElement : elementValue = //font[text()='Incorrect log in.']
+28/04/2020 21:13:59 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:00 automation 
+--------- Element Found : Locator=By.xpath: //font[text()='Incorrect log in.']
+28/04/2020 21:14:00 automation  verifyText Incorrect log in.
+28/04/2020 21:14:00 automation Inside findElement
+28/04/2020 21:14:00 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+28/04/2020 21:14:00 automation  Root element  :OR
+28/04/2020 21:14:00 automation  element :validusername = 1
+28/04/2020 21:14:00 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+28/04/2020 21:14:00 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:00 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+28/04/2020 21:14:01 automation Inside findElement
+28/04/2020 21:14:01 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+28/04/2020 21:14:01 automation  Root element  :OR
+28/04/2020 21:14:01 automation  element :password = 1
+28/04/2020 21:14:01 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+28/04/2020 21:14:01 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:01 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+28/04/2020 21:14:02 automation Func:Click
+28/04/2020 21:14:02 automation Inside findElement
+28/04/2020 21:14:02 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+28/04/2020 21:14:02 automation  Root element  :OR
+28/04/2020 21:14:02 automation  element :loginButton = 1
+28/04/2020 21:14:02 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+28/04/2020 21:14:02 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:02 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+28/04/2020 21:14:03 automation Func:Static Click
+28/04/2020 21:14:03 automation Inside type
+28/04/2020 21:14:03 automation Inside findElement
+28/04/2020 21:14:03 automation XML  reading start || getElement : elementName = errorMessage1 runningComponentName=CircPro_Login
+28/04/2020 21:14:03 automation  Root element  :OR
+28/04/2020 21:14:03 automation  element :errorMessage1 = 1
+28/04/2020 21:14:03 automation XML reading done ||  getElement : elementValue = //font[text()='Incorrect log in.']
+28/04/2020 21:14:03 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:03 automation 
+--------- Element Found : Locator=By.xpath: //font[text()='Incorrect log in.']
+28/04/2020 21:14:04 automation  verifyText Incorrect log in.
+28/04/2020 21:14:04 automation Inside findElement
+28/04/2020 21:14:04 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+28/04/2020 21:14:04 automation  Root element  :OR
+28/04/2020 21:14:04 automation  element :validusername = 1
+28/04/2020 21:14:04 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+28/04/2020 21:14:04 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:04 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+28/04/2020 21:14:05 automation Inside findElement
+28/04/2020 21:14:05 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+28/04/2020 21:14:05 automation  Root element  :OR
+28/04/2020 21:14:05 automation  element :password = 1
+28/04/2020 21:14:05 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+28/04/2020 21:14:05 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:05 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+28/04/2020 21:14:06 automation Func:Click
+28/04/2020 21:14:06 automation Inside findElement
+28/04/2020 21:14:06 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+28/04/2020 21:14:06 automation  Root element  :OR
+28/04/2020 21:14:06 automation  element :loginButton = 1
+28/04/2020 21:14:06 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+28/04/2020 21:14:06 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:06 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+28/04/2020 21:14:06 automation Func:Static Click
+28/04/2020 21:14:07 automation Inside findElement
+28/04/2020 21:14:07 automation XML  reading start || getElement : elementName = Clickterminate runningComponentName=CircPro_Login
+28/04/2020 21:14:07 automation  Root element  :OR
+28/04/2020 21:14:07 automation  element :Clickterminate = 1
+28/04/2020 21:14:07 automation XML reading done ||  getElement : elementValue = //input[contains(@value,'Terminate')]
+28/04/2020 21:14:07 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:07 automation 
+--------- Element Found : Locator=By.xpath: //input[contains(@value,'Terminate')]
+28/04/2020 21:14:08 automation Func:Static Click
+28/04/2020 21:14:08 automation To check if element is displayed
+28/04/2020 21:14:08 automation Inside findElement
+28/04/2020 21:14:08 automation XML  reading start || getElement : elementName = verifyload runningComponentName=CircPro_Login
+28/04/2020 21:14:08 automation  Root element  :OR
+28/04/2020 21:14:08 automation  element :verifyload = 1
+28/04/2020 21:14:08 automation XML reading done ||  getElement : elementValue = //a[text()='Support']
+28/04/2020 21:14:08 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:09 automation 
+--------- Element Found : Locator=By.xpath: //a[text()='Support']
+28/04/2020 21:14:10 automation endReport : java.io.FileNotFoundException: src\test\resources\essentials\web\report\Browser\chrome\28.April.2020 09.13.45 (The system cannot find the path specified)
+28/04/2020 21:14:11 automation Func:Click
+28/04/2020 21:14:11 automation Inside findElement
+28/04/2020 21:14:11 automation XML  reading start || getElement : elementName = allReports runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:11 automation  Root element  :OR
+28/04/2020 21:14:11 automation  element :allReports = 1
+28/04/2020 21:14:11 automation XML reading done ||  getElement : elementValue = //a[@class='external'][contains(.,'All Reports')]
+28/04/2020 21:14:11 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:11 automation 
+--------- Element Found : Locator=By.xpath: //a[@class='external'][contains(.,'All Reports')]
+28/04/2020 21:14:12 automation Func:Static Click
+28/04/2020 21:14:13 automation Func:Click
+28/04/2020 21:14:13 automation Inside findElement
+28/04/2020 21:14:13 automation XML  reading start || getElement : elementName = CriteriaBasedListingandLabels runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:13 automation  Root element  :OR
+28/04/2020 21:14:13 automation  element :CriteriaBasedListingandLabels = 1
+28/04/2020 21:14:13 automation XML reading done ||  getElement : elementValue = (//font[@size='2'][contains(.,'Criteria Based Listing and Labels')])[1]
+28/04/2020 21:14:13 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:13 automation 
+--------- Element Found : Locator=By.xpath: (//font[@size='2'][contains(.,'Criteria Based Listing and Labels')])[1]
+28/04/2020 21:14:13 automation Func:Static Click
+28/04/2020 21:14:20 automation Func:Click
+28/04/2020 21:14:20 automation Inside findElement
+28/04/2020 21:14:20 automation XML  reading start || getElement : elementName = Printer_PDF runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:20 automation  Root element  :OR
+28/04/2020 21:14:20 automation  element :Printer_PDF = 1
+28/04/2020 21:14:20 automation XML reading done ||  getElement : elementValue = //select[@name='0.3.13.0.5.1.1.1.21']/option[@value='3']
+28/04/2020 21:14:20 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:21 automation 
+--------- Element Found : Locator=By.xpath: //select[@name='0.3.13.0.5.1.1.1.21']/option[@value='3']
+28/04/2020 21:14:21 automation Func:Static Click
+28/04/2020 21:14:21 automation Func:Click
+28/04/2020 21:14:21 automation Inside findElement
+28/04/2020 21:14:21 automation XML  reading start || getElement : elementName = Publications runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:21 automation  Root element  :OR
+28/04/2020 21:14:21 automation  element :Publications = 1
+28/04/2020 21:14:21 automation XML reading done ||  getElement : elementValue = //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.3']/option[@value='0']
+28/04/2020 21:14:21 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:21 automation 
+--------- Element Found : Locator=By.xpath: //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.3']/option[@value='0']
+28/04/2020 21:14:22 automation Func:Static Click
+28/04/2020 21:14:23 automation Func:Click
+28/04/2020 21:14:23 automation Inside findElement
+28/04/2020 21:14:23 automation XML  reading start || getElement : elementName = Status runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:23 automation  Root element  :OR
+28/04/2020 21:14:23 automation  element :Status = 1
+28/04/2020 21:14:23 automation XML reading done ||  getElement : elementValue = //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.7']/option[@value='0']
+28/04/2020 21:14:23 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:23 automation 
+--------- Element Found : Locator=By.xpath: //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.7']/option[@value='0']
+28/04/2020 21:14:24 automation Func:Static Click
+28/04/2020 21:14:24 automation Func:Click
+28/04/2020 21:14:24 automation Inside findElement
+28/04/2020 21:14:24 automation XML  reading start || getElement : elementName = DayPattern runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:24 automation  Root element  :OR
+28/04/2020 21:14:24 automation  element :DayPattern = 1
+28/04/2020 21:14:24 automation XML reading done ||  getElement : elementValue = //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.15']/option[@value='0']
+28/04/2020 21:14:24 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:24 automation 
+--------- Element Found : Locator=By.xpath: //select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.15']/option[@value='0']
+28/04/2020 21:14:25 automation Func:Static Click
+28/04/2020 21:14:25 automation Func:Click
+28/04/2020 21:14:25 automation Inside findElement
+28/04/2020 21:14:25 automation XML  reading start || getElement : elementName = Run_Button runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:25 automation  Root element  :OR
+28/04/2020 21:14:25 automation  element :Run_Button = 1
+28/04/2020 21:14:25 automation XML reading done ||  getElement : elementValue = //input[@name='0.3.13.0.5.1.1.1.29.0.0']
+28/04/2020 21:14:25 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:25 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='0.3.13.0.5.1.1.1.29.0.0']
+28/04/2020 21:14:26 automation Func:Static Click
+28/04/2020 21:14:27 automation Inside findElement
+28/04/2020 21:14:27 automation XML  reading start || getElement : elementName = Email runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:27 automation  Root element  :OR
+28/04/2020 21:14:27 automation  element :Email = 1
+28/04/2020 21:14:27 automation XML reading done ||  getElement : elementValue = //input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5']
+28/04/2020 21:14:27 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:39 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5']
+28/04/2020 21:14:39 automation Assert java.lang.AssertionError: expected [true] but found [false]
+28/04/2020 21:14:40 automation Func:Click
+28/04/2020 21:14:40 automation Inside findElement
+28/04/2020 21:14:40 automation XML  reading start || getElement : elementName = emailfile runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:40 automation  Root element  :OR
+28/04/2020 21:14:40 automation  element :emailfile = 1
+28/04/2020 21:14:40 automation XML reading done ||  getElement : elementValue = //input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.3.0.0']
+28/04/2020 21:14:40 automation inside waitForVisibilityOfElement
+28/04/2020 21:14:52 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.3.0.0']
+28/04/2020 21:14:52 automation Func:Static Click
+28/04/2020 21:14:52 automation Func:Static Click Exception=java.lang.NullPointerException
+28/04/2020 21:14:52 automation Assert java.lang.AssertionError: expected [true] but found [false]
+28/04/2020 21:14:53 automation To check if element is displayed
+28/04/2020 21:14:53 automation Inside findElement
+28/04/2020 21:14:53 automation XML  reading start || getElement : elementName = EmailSentMessage runningComponentName=CircPro_ReportsBundleTopsManifests
+28/04/2020 21:14:53 automation  Root element  :OR
+28/04/2020 21:14:53 automation  element :EmailSentMessage = 1
+28/04/2020 21:14:53 automation XML reading done ||  getElement : elementValue = //font[@color='blue'][contains(.,'Email sent.')]
+28/04/2020 21:14:53 automation inside waitForVisibilityOfElement
+28/04/2020 21:15:16 automation waitForVisibilityOfElement bye bye after timeout=12 : Locator=By.xpath: //font[@color='blue'][contains(.,'Email sent.')]
+28/04/2020 21:15:16 automation Inside dateParameter : null
+28/04/2020 21:15:16 automation Assert java.lang.AssertionError: expected [true] but found [false]
+28/04/2020 21:15:30 automation endReport : java.io.FileNotFoundException: src\test\resources\essentials\web\report\Browser\chrome\28.April.2020 09.13.45 (The system cannot find the path specified)
+28/04/2020 21:15:32 automation Method : Main => Exception = java.lang.NullPointerExceptionScript Killed due to exception
+28/04/2020 21:15:32 automation Method : Main => Automation Script End

@@ -1,0 +1,99 @@
+<OR>
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////MailLables_Sarthak/////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		<mailLables> 
+			<xpath>//a[@class='external'][contains(.,'Mail Labels')]</xpath>
+		</mailLables>
+	
+		<publicationDropdown>
+			<xpath>//select[@name='0.3.13.0.5.3.1.21.1']</xpath>
+		</publicationDropdown>
+		
+		<publicationDropdownValues>
+			<xpath>//select[@name='0.3.13.0.5.3.1.21.1']/option[@value='1']</xpath>
+		</publicationDropdownValues>
+		
+		<typeDropdownValues>
+			<xpath>//select[contains(@name,'0.3.13.0.5.3.1.19')]/option[@value='1']</xpath>
+		</typeDropdownValues>
+				   
+		<exportButton> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.1.0.0.17']</xpath>
+		</exportButton>
+		
+		<exportTab> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.1.3.1.1.0.1']</xpath>
+		</exportTab>
+
+        <addressLine1> 
+			<xpath>//option[contains(.,'Address Line 1')]</xpath>
+		</addressLine1>
+
+        <addressLine2> 
+			<xpath>//option[contains(.,'Address Line 2')]</xpath>
+		</addressLine2>
+
+        <addressLine3> 
+			<xpath>//option[contains(.,'Address Line 3')]</xpath>
+		</addressLine3>
+
+        <account> 
+			<xpath>//option[@value='0'][contains(.,'Account')]</xpath>
+		</account>
+
+        <fullName> 
+			<xpath>//option[@value='1'][contains(.,'Full Name')]</xpath>
+		</fullName>
+
+        <barCode> 
+			<xpath>//option[@value='5'][contains(.,'Bar Code')]</xpath>
+		</barCode>
+		
+        <city> 
+			<xpath>//option[@value='6'][contains(.,'City')]</xpath>
+		</city>
+
+        <email> 
+			<xpath>//option[@value='12'][contains(.,'Email')]</xpath>
+		</email>
+
+        <addressLine2Move> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.7.0.0.15']</xpath>
+		</addressLine2Move>
+		
+        <addressLine2Remove> 
+			<xpath>//option[@value='12'][contains(.,'Address Line 2')]</xpath>
+		</addressLine2Remove>
+
+        <addressLine2MoveFromSelected> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.7.0.0.17']</xpath>
+		</addressLine2MoveFromSelected>
+
+		<printButton>
+			<xpath>//input[@name='0.3.13.0.5.3.1.49.0.0']</xpath>
+		</printButton>
+				
+		<Message1> 
+			<xpath>//font[@size='2'][contains(.,'ELIZABETH MARSH CUPINO (EE VC)7716 MCKAIG RDFREDERICK, MD  21701')]</xpath>
+		</Message1>
+		
+        <pdfLink> 
+			<xpath>//a[contains(.,'.pdf')]</xpath>
+		</pdfLink>
+		
+		<Clickterminate> 
+			<xpath>//input[contains(@value,'Terminate')]</xpath>
+		</Clickterminate>
+		
+		<backButton> 
+			<xpath>//input[@name='0.3.13.0.5.0.0.0.2.0.0']</xpath>
+		</backButton>
+				
+		<downloadCSVFile> 
+			<xpath>//a[contains(.,'DownLoad')]</xpath>
+		</downloadCSVFile>
+				
+		
+</OR> 

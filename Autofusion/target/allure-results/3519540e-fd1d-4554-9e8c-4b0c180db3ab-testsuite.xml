@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584874994242" stop="1584875008486" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</name>
+    <title>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</title>
+    <test-cases>
+        <test-case start="1584874994423" stop="1584874994429" status="broken">
+            <name>initialize</name>
+            <description>@BeforeTest</description>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException&#13;
+	at com.test.CircPro_RoutesTest.initialize(CircPro_RoutesTest.java:37)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)&#13;
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)&#13;
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)&#13;
+	at org.testng.TestRunner.beforeRun(TestRunner.java:634)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:602)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)&#13;
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)&#13;
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584875007423" stop="1584875007442" status="canceled">
+            <name>invalid_login</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:424)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:185)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1708)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_login"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584875007448" stop="1584875007461" status="canceled">
+            <name>invalid_loginblank</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:424)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:185)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1708)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_loginblank"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584875007466" stop="1584875007476" status="canceled">
+            <name>login_circPro</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:424)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:185)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1708)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="login_circPro"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584875008036" stop="1584875008043" status="canceled">
+            <name>testMethod</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:424)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:185)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1708)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_SubscriptionTest"/>
+                <label name="testMethod" value="testMethod"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584875008203" stop="1584875008216" status="canceled">
+            <name>navigation_routes</name>
+            <failure>
+                <message>: Skipped due to dependency on other skipped or failed test methods</message>
+                <stack-trace>ru.yandex.qatools.allure.testng.AllureTestListener$1: Skipped due to dependency on other skipped or failed test methods&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.fireTestCaseCancel(AllureTestListener.java:424)&#13;
+	at ru.yandex.qatools.allure.testng.AllureTestListener.onTestSkipped(AllureTestListener.java:185)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1708)&#13;
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1699)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:703)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_RoutesTest"/>
+                <label name="testMethod" value="navigation_routes"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34376@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

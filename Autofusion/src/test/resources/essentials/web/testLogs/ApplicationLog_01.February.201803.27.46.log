@@ -1,0 +1,34 @@
+01/02/2018 15:27:46 automation  initializeLogger src//test//resources//essentials// :: web - 01.February.201803.27.46
+01/02/2018 15:27:46 automation Logger Initiated
+01/02/2018 15:27:46 automation Reading Environment configuration file
+01/02/2018 15:27:46 automation Reading src//test//resources//essentials//\Config.xlsx
+01/02/2018 15:27:47 automation Reading Configurations
+01/02/2018 15:27:47 automation Reading readEnviromentsUrls
+01/02/2018 15:27:47 automation Reading readEnviromentsUrls
+01/02/2018 15:27:47 automation Reading Email
+01/02/2018 15:27:47 automation config Initiated :src//test//resources//essentials//
+01/02/2018 15:27:47 automation config file not Initiatedjava.io.FileNotFoundException: src\test\resources\essentials\config.properties (The system cannot find the file specified)
+01/02/2018 15:27:47 automation config Initiated :D:\AutofusionPractices
+01/02/2018 15:27:47 automation config file not Initiatedjava.io.FileNotFoundException: D:\AutofusionPractices\config.properties (The system cannot find the path specified)
+01/02/2018 15:27:47 automation The base  path b4 calling initilzise in initializeWebScript --- D:\AutofusionPractices
+01/02/2018 15:27:47 automation  initializeLogger D:\AutofusionPractices :: web - 01.February.201803.27.47
+01/02/2018 15:27:47 automation Logger Initiated
+01/02/2018 15:27:48 automation selectBatchId sql : select batchid from batchdetail where environment = 'qa' and device ='web'
+01/02/2018 15:27:48 automation selectBatchId batchId : 122
+01/02/2018 15:27:48 automation updateBatchId sql : update batchdetail set batchid = 123 where environment = 'qa' and device = 'web'
+01/02/2018 15:27:48 automation reportPath :D:\AutofusionPractices\\web//report//Browser\\firefox\\01.February.2018 03.27.47
+01/02/2018 15:27:48 automation Method : reportHeader => start
+01/02/2018 15:27:48 automation Method : reportHeader => end
+01/02/2018 15:27:48 automation executeTestSuites
+01/02/2018 15:27:48 automation Data Row:PracticeHomeSuite firefox
+01/02/2018 15:27:48 automation Function executeWebTestCase : Starting Execution.... 
+01/02/2018 15:27:48 automation [Function executeWebTestCase] Suite Name :D:\AutofusionPractices\web\TestCases\PracticeHomeSuite.xlsx
+01/02/2018 15:27:48 automation  executeSingleTestSuites :java.lang.NullPointerException
+01/02/2018 15:27:48 automation insertAutomationSummary SELECT COUNT(suitename) cntSuiteName, SUM(totaltestcase) as ttc, SUM(pass) as p,  SUM(fail) as f, SUM(skip) as s FROM `tbl_suitedetail` WHERE batchid = 122 and environment = 'qa' and runmode='Y'
+01/02/2018 15:27:48 automation insertAutomationSummary SELECT COUNT(testcaseid) as cntTestCaseId FROM tbl_testcasedetail WHERE batchid = 122 and environment = 'qa' and runmode='Y'
+01/02/2018 15:27:48 automation insertAutomationSummary SELECT COUNT(teststepid) as cntTestStepId FROM tbl_teststepdetail WHERE batchid = 122 and enviroment = 'qa' and runmode='Y'
+01/02/2018 15:27:48 automation insertAutomationSummary sqlInsert : insert into tbl_automationsummary (suitecategory,releaseversion, executiondate, environment, totalsuite,totaltestcase,totalsteps,pass,fail,skip,browser,device, batchid,reportpath) values ('','','2018-02-01','qa',0,0,0,0,0,0, 'firefox','web','122','D:\AutofusionPractices//web//report//Browser//firefox//01.February.2018 03.27.47//ExecutionReport_01.February.2018 03.27.47.html')
+01/02/2018 15:27:48 automation insertAutomationSummary sqlInsert 1 :  update tbl_automationsummary set totaltestcase=0 where batchid = '122'
+01/02/2018 15:27:48 automation insertAutomationSummary sqlInsert 2:  update tbl_automationsummary set totalsteps=0 where batchid = '122'
+01/02/2018 15:27:48 automation Method : Main => Exception = java.lang.NullPointerExceptionScript Killed due to exception
+01/02/2018 15:27:48 automation Method : Main => Automation Script End

@@ -1,0 +1,50 @@
+<OR>
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////RunProcessingPublishing_Sarthak/////////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		<publishing> 
+			<xpath>//a[@class='external'][contains(.,'Publishing')]</xpath>
+		</publishing>
+	
+		<selectButtonNewscycleMessenger>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.0.1.1.0')]</xpath>
+		</selectButtonNewscycleMessenger>
+		
+		<selectButtonOnlineE-Access>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.1.1.1.0')]</xpath>
+		</selectButtonOnlineE-Access>
+		
+		<selectButtonTabletAccess>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.2.1.1.0')]</xpath>
+		</selectButtonTabletAccess>
+		
+		<selectButtonShopperEMCorTMC>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.17.1.1.0')]</xpath>
+		</selectButtonShopperEMCorTMC>
+		
+		<selectButtonNewYorkTimes>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.11.1.1.0')]</xpath>
+		</selectButtonNewYorkTimes>
+		
+		<selectButtonBarrons>
+			<xpath>//input[contains(@name,'0.0.3.13.0.5.1.40.15.1.1.0')]</xpath>
+		</selectButtonBarrons>
+
+		<publishButton>
+			<xpath>//input[contains(@value,'Publish')]</xpath>
+		</publishButton>
+				
+        <ClickPublish> 
+			<xpath>'Begin daily processing'</xpath>
+		</ClickPublish>
+		
+		<message> 
+			<xpath>//font[contains(.,'Daily Processing In Progress')]</xpath>
+		</message>
+		
+		<messageCompletion> 
+			<xpath>//h3[contains(.,'Publishing Complete.')]</xpath>
+		</messageCompletion>
+		
+	</OR> 

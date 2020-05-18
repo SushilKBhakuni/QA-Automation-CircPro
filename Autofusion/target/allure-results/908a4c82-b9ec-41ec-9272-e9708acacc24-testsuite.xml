@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584872643363" stop="1584872781327" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</name>
+    <title>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</title>
+    <test-cases>
+        <test-case start="1584872656287" stop="1584872660614" status="passed">
+            <name>invalid_login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_login"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34560@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584872660623" stop="1584872664325" status="passed">
+            <name>invalid_loginblank</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_loginblank"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34560@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584872664332" stop="1584872670096" status="passed">
+            <name>login_circPro</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="login_circPro"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34560@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584872670184" stop="1584872740217" status="passed">
+            <name>testMethod</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_SubscriptionTest"/>
+                <label name="testMethod" value="testMethod"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34560@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584872740373" stop="1584872781109" status="passed">
+            <name>navigation_routes</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_RoutesTest"/>
+                <label name="testMethod" value="navigation_routes"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="34560@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

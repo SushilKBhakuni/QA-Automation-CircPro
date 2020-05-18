@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NCP_POM]">
+  <test name="TC-7(failed)">
+    <classes>
+      <class name="com.test.CircPro_ReportsBundleTopsManifestsTest">
+        <methods>
+          <include name="reports_manifest_deliveryTruckRelay"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="getSuitName"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.test.CircPro_ReportsBundleTopsManifestsTest -->
+    </classes>
+  </test> <!-- TC-7(failed) -->
+</suite> <!-- Failed suite [NCP_POM] -->

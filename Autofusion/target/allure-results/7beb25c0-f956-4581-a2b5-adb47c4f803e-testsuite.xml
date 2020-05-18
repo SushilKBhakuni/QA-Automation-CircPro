@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588101024770" stop="1588101049614" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-1</name>
+    <title>NCP_POM : TC-1</title>
+    <test-cases>
+        <test-case start="1588101035420" stop="1588101039755" status="passed">
+            <name>invalid_login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-1"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_login"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="14548@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1588101039760" stop="1588101043447" status="passed">
+            <name>invalid_loginblank</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-1"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_loginblank"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="14548@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1588101043457" stop="1588101049431" status="passed">
+            <name>login_circPro</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-1"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="login_circPro"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="14548@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

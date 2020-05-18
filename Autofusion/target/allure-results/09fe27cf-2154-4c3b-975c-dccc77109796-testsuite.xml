@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1588095218368" stop="1588095272946" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-7</name>
+    <title>NCP_POM : TC-7</title>
+    <test-cases>
+        <test-case start="1588095218371" stop="1588095272864" status="passed">
+            <name>reports_CriteriaBasedListing</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_CriteriaBasedListing"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="9568@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

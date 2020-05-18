@@ -1,0 +1,32 @@
+01/02/2018 16:29:24 automation  initializeLogger src//test//resources//essentials// :: web - 01.February.201804.29.24
+01/02/2018 16:29:24 automation Logger Initiated
+01/02/2018 16:29:24 automation Reading Environment configuration file
+01/02/2018 16:29:24 automation Reading src//test//resources//essentials//\Config.xlsx
+01/02/2018 16:29:26 automation Reading Configurations
+01/02/2018 16:29:26 automation Reading readEnviromentsUrls
+01/02/2018 16:29:26 automation Reading readEnviromentsUrls
+01/02/2018 16:29:26 automation Reading Email
+01/02/2018 16:29:26 automation config Initiated :src//test//resources//essentials//
+01/02/2018 16:29:26 automation config file not Initiatedjava.io.FileNotFoundException: src\test\resources\essentials\config.properties (The system cannot find the file specified)
+01/02/2018 16:29:49 automation config Initiated :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository
+01/02/2018 16:29:49 automation User config loaded
+01/02/2018 16:29:51 automation The base  path b4 calling initilzise in initializeWebScript --- D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository
+01/02/2018 16:29:51 automation  initializeLogger D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository :: web - 01.February.201804.29.51
+01/02/2018 16:29:51 automation Logger Initiated
+01/02/2018 16:29:51 automation selectBatchId sql : select batchid from batchdetail where environment = 'qa' and device ='web'
+01/02/2018 16:29:51 automation selectBatchId batchId : 125
+01/02/2018 16:29:51 automation updateBatchId sql : update batchdetail set batchid = 126 where environment = 'qa' and device = 'web'
+01/02/2018 16:29:51 automation reportPath :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository\\web//report//Browser\\firefox\\01.February.2018 04.29.51
+01/02/2018 16:29:51 automation Method : reportHeader => start
+01/02/2018 16:29:51 automation Method : reportHeader => end
+01/02/2018 16:29:51 automation executeTestSuites
+01/02/2018 16:29:51 automation Data Row:PracticeHomeSuite firefox
+01/02/2018 16:29:51 automation Function executeWebTestCase : Starting Execution.... 
+01/02/2018 16:29:51 automation [Function executeWebTestCase] Suite Name :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository\web\TestCases\PracticeHomeSuite.xlsx
+01/02/2018 16:29:51 automation [Function executeWebTestCase] Test Case: TC-1 => Runmode = Y
+01/02/2018 16:29:51 automation Method : isRunableMode => runmodeFlag = Y
+01/02/2018 16:29:51 automation Method : executeCommonSteps => Common Step found = CS-1
+01/02/2018 16:29:51 automation currentKeyword :open || tsid:CTS-1 || tcid:CS-1 || object: || data:
+01/02/2018 16:29:51 automation assignData : 
+01/02/2018 16:29:51 automation regenerateData : 
+01/02/2018 16:29:51 automation regenerateData : 

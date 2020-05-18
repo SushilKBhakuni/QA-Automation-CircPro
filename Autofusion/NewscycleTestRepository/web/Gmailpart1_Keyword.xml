@@ -1,0 +1,11 @@
+<OR>
+	<LoginPasswordXpath> 
+		<id>firstName</id>
+	</LoginPasswordXpath>
+
+	<LoginUserNameXpath> 
+		<id>lastName</id>
+	</LoginUserNameXpath>
+
+    
+</OR> 

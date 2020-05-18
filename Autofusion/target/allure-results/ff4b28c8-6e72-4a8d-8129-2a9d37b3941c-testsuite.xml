@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1587901975341" stop="1587902161086" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>NCP_POM : TC-7</name>
+    <title>NCP_POM : TC-7</title>
+    <test-cases>
+        <test-case start="1587901975343" stop="1587902048402" status="broken">
+            <name>reports_bundleTop</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.clickRunButton(CircPro_ReportsBundleTopsManifests.java:68)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_bundle_browser(CircPro_ReportsBundleTopsManifestsTest.java:107)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_bundleTop(CircPro_ReportsBundleTopsManifestsTest.java:50)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_bundleTop"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="19184@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1587902048405" stop="1587902076476" status="broken">
+            <name>reports_manifest_aamReport</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.clickonAAM(CircPro_ReportsBundleTopsManifests.java:254)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_aamReport_pdf(CircPro_ReportsBundleTopsManifestsTest.java:269)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_aamReport(CircPro_ReportsBundleTopsManifestsTest.java:79)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_aamReport"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="19184@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1587902076479" stop="1587902104539" status="broken">
+            <name>reports_manifest_deliveryTruck</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.02 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.02 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.click(CircPro_ReportsBundleTopsManifests.java:37)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruck_pdf(CircPro_ReportsBundleTopsManifestsTest.java:197)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruck(CircPro_ReportsBundleTopsManifestsTest.java:66)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruck"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="19184@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1587902104541" stop="1587902132624" status="broken">
+            <name>reports_manifest_deliveryTruckLoading</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.04 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.04 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.click(CircPro_ReportsBundleTopsManifests.java:37)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckLoading_pdf(CircPro_ReportsBundleTopsManifestsTest.java:144)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckLoading(CircPro_ReportsBundleTopsManifestsTest.java:57)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruckLoading"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="19184@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1587902132627" stop="1587902160699" status="broken">
+            <name>reports_manifest_deliveryTruckRelay</name>
+            <failure>
+                <message>WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11</message>
+                <stack-trace>org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 14.03 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir25316_5502}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: adbc722d0c2f1eb2bf864ad3d41caa11&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)&#13;
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:694)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:382)&#13;
+	at com.autofusion.BaseClass.addScreenshot(BaseClass.java:428)&#13;
+	at com.autofusion.BaseClass.logResultInReport(BaseClass.java:455)&#13;
+	at com.ncs.page.CircPro_ReportsBundleTopsManifests.click(CircPro_ReportsBundleTopsManifests.java:37)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckRelay_pdf(CircPro_ReportsBundleTopsManifestsTest.java:250)&#13;
+	at com.test.CircPro_ReportsBundleTopsManifestsTest.reports_manifest_deliveryTruckRelay(CircPro_ReportsBundleTopsManifestsTest.java:74)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:610)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)&#13;
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)&#13;
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)&#13;
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)&#13;
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)&#13;
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)&#13;
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)&#13;
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)&#13;
+	at org.testng.TestNG.runSuites(TestNG.java:1133)&#13;
+	at org.testng.TestNG.run(TestNG.java:1104)&#13;
+	at com.autofusion.report.CreateTestNgXml.createXmlSuite(CreateTestNgXml.java:68)&#13;
+	at com.autofusion.web.DriverScript.mainMethodWebSingle(DriverScript.java:1075)&#13;
+	at com.autofusion.web.DriverScript.main(DriverScript.java:984)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="NCP_POM"/>
+                <label name="testGroup" value="TC-7"/>
+                <label name="testClass" value="com.test.CircPro_ReportsBundleTopsManifestsTest"/>
+                <label name="testMethod" value="reports_manifest_deliveryTruckRelay"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="19184@del1-lhp-n68376.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

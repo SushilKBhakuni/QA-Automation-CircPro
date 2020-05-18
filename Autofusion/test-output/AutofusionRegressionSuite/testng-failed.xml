@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="classes" name="Failed suite [AutofusionRegressionSuite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="SmokeTest-Naviga-xyzApplication(failed)">
+    <classes>
+      <class name="com.test.CircPro_RunProcessing_PublishingTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="dailyPublicationTest"/>
+          <include name="initialize"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.CircPro_RunProcessing_PublishingTest -->
+      <class name="com.test.CircPro_LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="getSuitName"/>
+          <include name="initialize"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.test.CircPro_LoginTest -->
+    </classes>
+  </test> <!-- SmokeTest-Naviga-xyzApplication(failed) -->
+</suite> <!-- Failed suite [AutofusionRegressionSuite] -->

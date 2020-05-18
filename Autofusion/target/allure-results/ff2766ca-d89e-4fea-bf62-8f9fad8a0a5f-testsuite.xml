@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1584854966073" stop="1584855060871" version="1.5.0" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</name>
+    <title>AutofusionRegressionSuite : SmokeTest-Naviga-xyzApplication</title>
+    <test-cases>
+        <test-case start="1584854977920" stop="1584854982661" status="passed">
+            <name>invalid_login</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_login"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="17768@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584854982672" stop="1584854986277" status="passed">
+            <name>invalid_loginblank</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="invalid_loginblank"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="17768@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584854986284" stop="1584854991852" status="passed">
+            <name>login_circPro</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_LoginTest"/>
+                <label name="testMethod" value="login_circPro"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="17768@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584854991949" stop="1584855059764" status="passed">
+            <name>testMethod</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_SubscriptionTest"/>
+                <label name="testMethod" value="testMethod"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="17768@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+        <test-case start="1584855059818" stop="1584855060778" status="broken">
+            <name>navigation_routes</name>
+            <failure>
+                <message>NullPointerException: null</message>
+                <stack-trace>java.lang.NullPointerException&#13;
+	at com.test.CircPro_RoutesTest.navigation_routes_getZipCode(CircPro_RoutesTest.java:61)&#13;
+	at com.test.CircPro_RoutesTest.navigation_routes(CircPro_RoutesTest.java:48)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#13;
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)&#13;
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)&#13;
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)&#13;
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)&#13;
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)&#13;
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)&#13;
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:830)&#13;
+</stack-trace>
+            </failure>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="AutofusionRegressionSuite"/>
+                <label name="testGroup" value="SmokeTest-Naviga-xyzApplication"/>
+                <label name="testClass" value="com.test.CircPro_RoutesTest"/>
+                <label name="testMethod" value="navigation_routes"/>
+                <label name="host" value="del1-lhp-n68376"/>
+                <label name="thread" value="17768@del1-lhp-n68376.pool-1-thread-1(15)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

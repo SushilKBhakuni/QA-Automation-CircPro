@@ -1,0 +1,12 @@
+01/02/2018 16:30:39 automation  initializeLogger src//test//resources//essentials// :: web - 01.February.201804.30.39
+01/02/2018 16:30:39 automation Logger Initiated
+01/02/2018 16:30:39 automation Reading Environment configuration file
+01/02/2018 16:30:39 automation Reading src//test//resources//essentials//\Config.xlsx
+01/02/2018 16:30:40 automation Reading Configurations
+01/02/2018 16:30:40 automation Reading readEnviromentsUrls
+01/02/2018 16:30:41 automation Reading readEnviromentsUrls
+01/02/2018 16:30:41 automation Reading Email
+01/02/2018 16:30:41 automation config Initiated :src//test//resources//essentials//
+01/02/2018 16:30:41 automation config file not Initiatedjava.io.FileNotFoundException: src\test\resources\essentials\config.properties (The system cannot find the file specified)
+01/02/2018 16:30:46 automation config Initiated :D:\Projects\Autofusion\GL_GIT\AutofusionTestRepository
+01/02/2018 16:30:46 automation User config loaded

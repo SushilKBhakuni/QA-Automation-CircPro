@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CreateProfile]" guice-stage="DEVELOPMENT">
+  <parameter name="executionEnviroment" value="qa"/>
+  <parameter name="runOnMachine" value="127.0.0.1"/>
+  <parameter name="projectPath" value="C:\\Autofusion\\"/>
+  <parameter name="releaseVersion" value="3.5"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="device" value="web"/>
+  <test name="Login(failed)">
+    <classes>
+      <class name="com.test.GmailPage_1Test">
+        <methods>
+          <include name="testMethod"/>
+          <include name="tearDown"/>
+          <include name="getSuitName"/>
+          <include name="setUp"/>
+          <include name="afterSuite"/>
+        </methods>
+      </class> <!-- com.test.GmailPage_1Test -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [CreateProfile] -->

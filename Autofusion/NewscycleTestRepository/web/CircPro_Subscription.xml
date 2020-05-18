@@ -1,0 +1,177 @@
+<OR>
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////NewSubscription_Vivek////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		<newSubscriber>
+			<xpath>(//a[text()='New'])[1]</xpath>
+		</newSubscriber>
+		
+		<firstName>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.5']</xpath>
+		</firstName>
+		
+		<lastName>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.17']</xpath>
+		</lastName>
+		
+		<email>
+			<xpath>//input[@name= '0.3.13.0.5.5.47.0.3.0.1.0.0.55']</xpath>
+		</email>
+		
+		<streetNumber>
+			<xpath>//input[@name= '0.3.13.0.5.5.49.0.3.0.1.0.0.5']</xpath>
+		</streetNumber>
+		
+		<streetName>
+			<xpath>//input[@name= '0.3.13.0.5.5.49.0.3.0.1.0.0.15']</xpath>
+		</streetName>
+		
+		<suffix>
+			<xpath>//input[@name= 'jsuffix']</xpath>
+		</suffix>
+		
+		<saveandBack>
+			<xpath>//input[@name='0.3.13.0.5.5.3.0.0']</xpath>
+		</saveandBack>
+		
+		<zipCode>
+			<xpath>//input[@name= '0.3.13.0.5.5.51.1.0.3.0.1.0.0.5']</xpath>
+		</zipCode>
+		
+		<city>
+			<xpath>//input[@name='0.3.13.0.5.5.51.1.0.3.0.1.0.0.17']</xpath>
+		</city>
+		
+		<state>
+			<xpath>//input[@name='jstate']</xpath>
+		</state>
+		
+		<satori>
+			<xpath>//input[@name='0.3.13.0.5.0.1.0.0']</xpath>
+		</satori>
+		
+		<homeButton>
+			<xpath>//img[contains(@src,'Home.gif')]</xpath>
+		</homeButton>
+		
+		<RecordFound>
+			<xpath>//font[text()='Records Found']</xpath>
+		</RecordFound>
+		
+		
+		
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////AddSubscription_Ameya////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		<SearchMenu> 
+			<xpath>(//a[text()='Search'])[1]</xpath>
+		</SearchMenu>
+	
+		<LogoutButton> 
+			<xpath>//img[@src='/WebObjects/CircWeb.woa/Contents/WebServerResources/LogOut.gif']</xpath>
+		</LogoutButton>
+			
+		<SearchBox> 
+			<xpath>//input[@name='X']</xpath>
+		</SearchBox>
+		
+		<SearchButton> 
+			<xpath>(//input[@value='Search'])[2]</xpath>
+		</SearchButton>
+		
+		<SubButton>
+			<xpath>//font[text()='Subscriptions']</xpath>
+		</SubButton>
+		
+		<AddButton> 
+			<xpath>//input[contains(@src,'/add-sm-btn.gif')]</xpath>
+		</AddButton>
+		
+		<DelTypeSelect> 
+			<xpath>//select[@name='0.3.13.0.5.5.61.1.1.0']</xpath>
+		</DelTypeSelect>
+		
+		<DelTypeOption> 
+			<xpath>//option[text()='Digital']</xpath>
+		</DelTypeOption>
+		
+		<UseAsTyped> 
+			<xpath>//input[@value='Use As Typed']</xpath>
+		</UseAsTyped>
+		
+		<VerifyDelTypeOption> 
+			<xpath>//td[contains(text(),'Digital')]</xpath>
+		</VerifyDelTypeOption>
+		
+		
+		<PayTypeSelect> 
+			<xpath>//select[@name='0.3.13.0.5.5.73.1.1.0']</xpath>
+		</PayTypeSelect>
+		
+		<PayTypeOption> 
+			<xpath>//option[text()='PIO']</xpath>
+		</PayTypeOption>
+		
+		<VerifyPayTypeOption> 
+			<xpath>//td[contains(text(),'PIO')]</xpath>
+		</VerifyPayTypeOption>
+		
+		
+		<DayPatternSelect> 
+			<xpath>//select[@name='0.3.13.0.5.5.85.0']</xpath>
+		</DayPatternSelect>
+		
+		<DayPatternOption> 
+			<xpath>//option[text()='SMTWTFS']</xpath>
+		</DayPatternOption>
+		
+		<SaveAndBackOption> 
+			<xpath>//input[@name='0.3.13.0.5.5.11.0.0']</xpath>
+		</SaveAndBackOption>
+		
+		<OKButton> 
+			<xpath>//input[@value='OK']</xpath>
+		</OKButton>
+		
+		
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		///////////////////////////////////////PaymentSubscription_Anirudh////////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		<Payments>
+			<xpath>(//a[contains(text(),'Payments')])[1]</xpath>
+		</Payments>
+		
+		<Cash>
+			<xpath>//option[contains(text(),'CASH')]</xpath>
+		</Cash>
+		
+		<Paymenttype >
+			<xpath>//select[@name='paymentTypes']</xpath>
+		</Paymenttype>
+		
+		<Account> 
+			<xpath>//*[@id="mainContent"]/table/tbody/tr[2]/td[2]/form/table[2]/tbody/tr[2]/td[3]/table/tbody/tr/td[1]/input</xpath>
+		</Account>
+		
+		<PaymentValue>
+			<xpath>//input[@name='mPayment']</xpath>
+		</PaymentValue>
+		
+		<NIE>
+			<xpath>//input[@name='tipOrNIE']</xpath>
+		</NIE>
+		
+		<Discount>
+		<xpath>//input[@name='mDiscount']</xpath>
+		</Discount>
+		
+		<Payfrom>
+			<xpath>//input[@name='mPayFrom']</xpath>>
+		</Payfrom>
+		
+		<Save>
+			<xpath>//input[@value='Save']</xpath>>
+		</Save>>
+</OR> 

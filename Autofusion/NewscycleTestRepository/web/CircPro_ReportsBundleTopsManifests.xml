@@ -1,0 +1,531 @@
+<OR>
+		/////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////ReportsBundleTopsManifest_Sarthak//////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+	
+		<allReports> 
+			<xpath>//a[@class='external'][contains(.,'All Reports')]</xpath>
+		</allReports>
+
+		<bundleTops> 
+			<xpath>//font[text()='Bundle Top Messages']</xpath>
+		</bundleTops>
+		
+		<deliveryTruckLoadingManifest> 
+			<xpath>//font[@size='2'][contains(.,'Delivery Truck Loading Manifest')]</xpath>
+		</deliveryTruckLoadingManifest>
+		
+		<deliveryTruckManifest> 
+			<xpath>//font[@size='2'][contains(.,'Delivery Truck Manifest')]</xpath>
+		</deliveryTruckManifest>
+		
+		<deliveryTruckRelayManifest> 
+			<xpath>//font[@size='2'][contains(.,'Delivery Truck Relay Manifest')]</xpath>
+		</deliveryTruckRelayManifest>
+		
+		<dailyCashDistributorManifest> 
+			<xpath>//font[@size='2'][contains(.,'Daily Cash - Distributor')]</xpath>
+		</dailyCashDistributorManifest>
+		
+		<selectionSettingsDistributor> 
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.1.0.5.1')]/option[@value='2']</xpath>
+		</selectionSettingsDistributor>
+		<selectionSettingsUser>
+			<xpath>//select[contains(@name,'0.2.1.3.13.0.5.1.1.1.1.0.5.1')]/option[@value='2']</xpath>
+		</selectionSettingsUser>
+		
+		<selectionSettingsSavedPrevious>
+			<xpath>//select[contains(@name,'0.2.1.3.13.0.5.1.1.1.1.0.7.0')]/option[@value='2']</xpath>
+		</selectionSettingsSavedPrevious>
+
+		<selectionSettingsUserdtlm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.1.0.5.1')]/option[@value='1']</xpath>
+		</selectionSettingsUserdtlm>
+		
+		<selectionSettingsSavedPreviousdtlm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.1.0.7.0')]/option[@value='1']</xpath>
+		</selectionSettingsSavedPreviousdtlm>
+		
+		<selectionSettingsSavedPreviousDistributor>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.1.0.7.0')]/option[@value='3']</xpath>
+		</selectionSettingsSavedPreviousDistributor>
+		
+		<validateSettingsSavedPreviousDistributor>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.1.0.7.0')]</xpath>
+		</validateSettingsSavedPreviousDistributor>
+		
+		<reportFormatBrowserdtlm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.29')]/option[@value='0']</xpath>
+		</reportFormatBrowserdtlm>
+		
+		<reportFormatBrowserCashDistributor>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.17')]/option[@value='0']</xpath>
+		</reportFormatBrowserCashDistributor>
+		
+		<reportFormatCSVCashDistributor>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.17')]/option[@value='13']</xpath>
+		</reportFormatCSVCashDistributor>
+		
+		<reportFormatTextCashDistributor>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.17')]/option[@value='19']</xpath>
+		</reportFormatTextCashDistributor>
+		
+		<reportFormatCSVdtlm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.29')]/option[@value='10']</xpath>
+		</reportFormatCSVdtlm>
+		
+		<reportFormatTextdtlm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.29')]/option[@value='22']</xpath>
+		</reportFormatTextdtlm>
+		
+		<reportFormatBrowserdtm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.33')]/option[@value='0']</xpath>
+		</reportFormatBrowserdtm>
+		
+		<reportFormatCSVdtm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.33')]/option[@value='10']</xpath>
+		</reportFormatCSVdtm>
+		
+		<reportFormatTextdtm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.33')]/option[@value='22']</xpath>
+		</reportFormatTextdtm>
+		
+		<reportFormatPDFdtm>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.3.33')]/option[@value='1']</xpath>
+		</reportFormatPDFdtm>
+		
+		
+		<selectAll>
+			<xpath>//font[text()='All'])[2]</xpath>
+		</selectAll>
+		
+		<saveButton>
+			<xpath>//input[contains(@value,'Save')]</xpath>
+		</saveButton>
+		
+		<deleteButton>
+			<xpath>//input[contains(@value,'Delete')]</xpath>
+		</deleteButton>
+		
+		<emailButton>
+			<xpath>//input[contains(@value,'Email File To')]</xpath>
+		</emailButton>
+		<runButton>
+			<xpath>//input[contains(@value,'Run')]</xpath>
+		</runButton>
+  	    <verifyText>
+			<xpath>//input[contains(@value,'Run')]</xpath>
+		</verifyText> 
+				
+		<newButton>
+			<xpath>//input[contains(@value,'New')]</xpath>
+		</newButton>
+					
+        <pdfLink> 
+			<xpath>//a[contains(.,'.pdf')]</xpath>
+		</pdfLink>
+		
+		<backButton>
+			<xpath>//input[contains(@value,'Back')]</xpath>
+		</backButton>
+
+        <reportFormatBrowser>
+			<xpath>//select[contains(@name,'0.2.1.3.13.0.5.1.1.1.21')]/option[@value='0']</xpath>
+		</reportFormatBrowser>
+		
+		
+		<reportFormatCSV>
+			<xpath>//select[contains(@name,'0.2.1.3.13.0.5.1.1.1.21')]/option[@value='10']</xpath>
+		</reportFormatCSV>
+
+        <csvLink> 
+			<xpath>//a[contains(.,'.csv')]</xpath>
+		</csvLink>
+		
+		<reportFormatText>
+			<xpath>//select[contains(@name,'0.2.1.3.13.0.5.1.1.1.21')]/option[@value='22']</xpath>
+		</reportFormatText>
+		
+		<textLink> 
+			<xpath>//a[contains(.,'.txt')]</xpath>
+		</textLink>
+		
+		<Message1> 
+			<xpath>//font[text()='Bundle Top Messages']</xpath>
+		</Message1>
+
+        <Message2> 
+			<xpath>//font[text()='All Trucks Summary']</xpath>
+		</Message2>
+		
+        <Message3> 
+			<xpath>//font[@color='#1f0dff'][contains(.,'DELIVERY TRUCK MANIFEST - Newscycle Messenger - For')]</xpath>
+		</Message3>
+		<CashDistributorMessage> 
+			<xpath>//font[@color='#1f0dff'][contains(.,'Distributor Cash Report Details for')]</xpath>
+		</CashDistributorMessage>
+		
+		<EmailSentMessage> 
+			<xpath>//font[@color='blue'][contains(.,'Email sent.')]</xpath>
+		</EmailSentMessage>
+ 				
+        <TrucksToSelectTD11> 
+			<xpath>//option[@value='2'][contains(.,'ZZZZ')]</xpath>
+		</TrucksToSelectTD11>
+				
+        <TrucksToSelectTR02> 
+			<xpath>//option[@value='2'][contains(.,'TR02')]</xpath>
+		</TrucksToSelectTR02>
+
+        <TrucksToSelectZZYY> 
+			<xpath>//option[@value='2'][contains(.,'ZZYY')]</xpath>
+		</TrucksToSelectZZYY>
+				
+        <TrucksToSelectZZZY> 
+			<xpath>//option[@value='2'][contains(.,'ZZZY')]</xpath>
+		</TrucksToSelectZZZY>
+				
+		<selected> 
+			<xpath>//input[contains(@name,'0.3.13.0.5.1.3.3.51')]</xpath>
+		</selected>
+				
+		<printButton>
+			<xpath>//input[contains(@value,'Print')]</xpath>
+		</printButton>		
+	
+		<emailBox>
+			<xpath>//input[contains(@name,'0.2.1.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5')]</xpath>
+		</emailBox>			
+		
+		<sendEmailButton>
+			<xpath>//input[contains(@value,'Email File To')]</xpath>
+		</sendEmailButton>			
+
+		<emailSent>
+			<xpath>//font[@color='blue'][contains(.,'Email sent.')]</xpath>
+		</emailSent>			
+				
+		
+	/////////////////////////////////////////////////////////////////////////////////////////////////
+		//////////////////////////////////////ReportCriteriaBasedListing/////////////////////////////////
+		////////////////////////////////////////////////////////////////////////////////////////////////
+		
+		
+		<DownloadIsVisible>
+			<xpath>(//input[@value='Download File']</xpath>
+		</DownloadIsVisible>
+		
+		<CriteriaBasedListingandLabels>
+			<xpath>(//font[@size='2'][contains(.,'Criteria Based Listing and Labels')])[1]</xpath>
+		</CriteriaBasedListingandLabels>
+		
+		<selectionSettingsUser1>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.1.0.5.1')]</xpath>
+		</selectionSettingsUser1>
+		
+		<None_WithoutSavedsettings>
+			<xpath>//select[contains(@name,'0.3.13.0.5.1.1.1.1.0.7.0')]</xpath>
+		</None_WithoutSavedsettings>
+		
+		<Newbutton>
+			<xpath>//input[contains(@value,'New')]</xpath>
+		</Newbutton>
+		
+		<SavedselectionSettings>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.1.0.7.0']</xpath>
+		</SavedselectionSettings>
+		
+		<NonSubscribers>
+			<xpath>//form/table[2]/tbody/tr[2]/td[5]/input</xpath>
+		</NonSubscribers>
+		
+		<Printer_Browser>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.21']/option[@value='0']</xpath>
+		</Printer_Browser>
+		
+		<Printer_PDF>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.21']/option[@value='4']</xpath>
+		</Printer_PDF>
+		
+		<Printer_CSV>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.21']/option[@value='13']</xpath>
+		</Printer_CSV>
+
+		<Printer_TEXT>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.21']/option[@value='22']</xpath>
+		</Printer_TEXT>
+		
+		<Publications>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.3']/option[@value='0']</xpath>
+		</Publications>
+		
+		<Status>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.7']/option[@value='0']</xpath>
+		</Status>
+		
+		<PayType>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.11']/option[@value='2']</xpath>
+		</PayType>
+		
+		<Renewal>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.23']/option[@value='1']</xpath>
+		</Renewal>
+		
+		<DayPattern>
+			<xpath>//select[@name='0.3.13.0.5.1.1.1.25.0.3.0.3.0.0.3.15']/option[@value='0']</xpath>
+		</DayPattern>
+		
+		<Delivery>
+			<xpath>//option[@value='0'][contains(.,'Carrier')]</xpath>
+		</Delivery>
+		
+		<Run_Button>
+			<xpath>//input[@name='0.3.13.0.5.1.1.1.29.0.0']</xpath>
+		</Run_Button>
+		
+		<Email>
+			<xpath>//input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5']</xpath>
+		</Email>
+		
+		<emailfile>
+			<xpath>//input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.3.0.0']</xpath>
+		</emailfile>
+		
+		
+		<ClickHere>
+			<xpath>//input[@name='0.3.13.0.5.1.1.1.29.0.0']</xpath>
+		</ClickHere>
+
+		
+======================================================================================================================================================
+		<publicationDropdown>
+			<xpath>//select[@name='0.3.13.0.5.3.1.21.1']</xpath>
+		</publicationDropdown>
+		
+		<exportButton> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.1.0.0.17']</xpath>
+		</exportButton>
+		
+		<exportTab> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.1.3.1.1.0.1']</xpath>
+		</exportTab>
+
+        <addressLine1> 
+			<xpath>//option[contains(.,'Address Line 1')]</xpath>
+		</addressLine1>
+
+        <addressLine2> 
+			<xpath>//option[contains(.,'Address Line 2')]</xpath>
+		</addressLine2>
+
+        <addressLine3> 
+			<xpath>//option[contains(.,'Address Line 3')]</xpath>
+		</addressLine3>
+
+        <account> 
+			<xpath>//option[@value='0'][contains(.,'Account')]</xpath>
+		</account>
+
+        <fullName> 
+			<xpath>//option[@value='1'][contains(.,'Full Name')]</xpath>
+		</fullName>
+
+        <barCode> 
+			<xpath>//option[@value='5'][contains(.,'Bar Code')]</xpath>
+		</barCode>
+		
+        <city> 
+			<xpath>//option[@value='6'][contains(.,'City')]</xpath>
+		</city>
+
+        <email> 
+			<xpath>//option[@value='12'][contains(.,'Email')]</xpath>
+		</email>
+		
+		<validEmailID> 
+			<xpath>//input[@name='0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5']</xpath>
+		</validEmailID>
+		
+		<saveSettings> 
+			<xpath>//input[contains(@name,'0.3.13.0.5.1.1.1.1.0.15.5')]</xpath>
+		</saveSettings>
+		
+        <addressLine2Move> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.7.0.0.15']</xpath>
+		</addressLine2Move>
+		
+        <addressLine2Remove> 
+			<xpath>//option[@value='12'][contains(.,'Address Line 2')]</xpath>
+		</addressLine2Remove>
+
+        <addressLine2MoveFromSelected> 
+			<xpath>//input[@name='0.3.13.0.5.3.1.79.0.3.0.7.0.0.17']</xpath>
+		</addressLine2MoveFromSelected>
+
+
+		<typeDropdownValues>
+			<xpath>//select[@name='0.3.13.0.5.3.1.19']/option[@value='1']</xpath>
+		</typeDropdownValues>				
+		
+        <pdfLink> 
+			<xpath>//a[contains(.,'.pdf')]</xpath>
+		</pdfLink>
+
+		<filePath>file:///C://Users//sarthak.kumar//Downloads//Labels_20_03_10_15_27_43.pdf
+		</filePath>
+		
+		<Clickterminate> 
+			<xpath>//input[contains(@value,'Terminate')]</xpath>
+		</Clickterminate>
+		
+======================================================================================================================================================
+
+	//////////////////////////AAM Reports Tahseen////////////////////////////////
+	<aamParagraph3>
+		<xpath>//font[@size='2'][contains(.,'AAM - Paragraph 3')]</xpath>
+	</aamParagraph3>
+
+	<publicationNewscycleMessenger>
+		<xpath>//*[@value="0" and contains(text(), 'Newscycle Messenger')]</xpath>
+	</publicationNewscycleMessenger>
+
+	<publishDate>
+		<xpath>//*[@name="pDate"]</xpath>
+	</publishDate>
+	
+	<selectPrintDevicePdf>
+		<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.23')]/option[@value='1']</xpath>
+	</selectPrintDevicePdf>
+	
+	<selectPrintDeviceBrowser>
+		<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.23')]/option[@value='0']</xpath>
+	</selectPrintDeviceBrowser>
+	
+	<selectPrintDeviceCSV>
+		<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.23')]/option[@value='10']</xpath>
+	</selectPrintDeviceCSV>
+	
+	<selectPrintDeviceTxt>
+		<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.23')]/option[@value='16']</xpath>
+	</selectPrintDeviceTxt>
+
+	<runReport>
+		<xpath>//*[@name="0.3.13.0.5.0.0.1.17.0.0"]</xpath>
+	</runReport>
+	
+	<pdfReportMessage>
+		<xpath>(//td[@id='mainContent']//table)[4]/tbody[1]/tr[1]/td[5]</xpath>
+	</pdfReportMessage>
+	
+	<browserReportMessage>
+		<xpath>//*[@id="mainContent"]/table/tbody/tr[2]/td[2]/form[1]/table[1]/tbody/tr/td[3]/i/font</xpath>
+	</browserReportMessage>
+	
+	<csvReportMessage>
+		<xpath>(//td[@id='mainContent']//table)[4]/tbody[1]/tr[1]/td[5]</xpath>
+	</csvReportMessage>
+	
+	<enterEmailId>
+		<xpath>//*[@name="0.3.13.0.5.0.1.0.1.1.1.3.1.9.0.5"]</xpath>
+	</enterEmailId>
+					
+	<enterEmailId1>
+		<xpath>//*[@name="0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5"]</xpath>
+	</enterEmailId1>
+			
+	<clickSendEmail>
+		<xpath>//*[@name = "0.3.13.0.5.0.1.0.1.1.1.3.1.9.0.3.0.0"]</xpath>
+	</clickSendEmail>
+	
+	<enterEmailId2>
+		<xpath>//*[@name="0.2.1.3.13.0.5.1.3.0.1.1.1.3.1.9.0.5"]</xpath>
+	</enterEmailId2>
+			
+	<clickSendEmail2>
+		<xpath>//*[@name = "0.2.1.3.13.0.5.1.3.0.1.1.1.3.1.9.0.3.0.0"]</xpath>
+	</clickSendEmail2>
+
+	<clickSendEmail1>
+		<xpath>//*[@name = "0.3.13.0.5.1.3.0.1.1.1.3.1.9.0.3.0.0"]</xpath>
+	</clickSendEmail1>		
+	
+	<enterEmailId3>
+		<xpath>//*[@name="0.3.13.0.5.1.1.0.1.1.1.3.1.9.0.5"]</xpath>
+	</enterEmailId3>	  
+			
+	<clickSendEmail3>
+		<xpath>//*[@name = "0.3.13.0.5.1.1.0.1.1.1.3.1.9.0.3.0.0"]</xpath>
+	</clickSendEmail3>	    
+
+	
+	<backToAamReport>
+		<xpath>(//input[@type='submit'])[1]</xpath>
+	</backToAamReport>
+	
+	
+	<selectionSettings>
+		<xpath>//*[@name="0.3.13.0.5.0.0.1.0.0.5.1"]</xpath>
+	</selectionSettings>
+
+	<selectionSettingsSaving>
+		<xpath>//*[@name="0.3.13.0.5.0.0.1.0.0.7.0"]</xpath>
+	</selectionSettingsSaving>
+
+	<selectionSettingsNewButton>
+		<xpath>//*[@name="0.3.13.0.5.0.0.1.0.0.13.1.0.0"]</xpath>
+	</selectionSettingsNewButton>
+		
+	<openCalendar>
+		<xpath>//*[@title="Open Calendar"]</xpath>
+	</openCalendar>
+
+	<selectTodayDate>
+		<xpath>//*[@class="today selected"]</xpath>
+	</selectTodayDate>
+
+	//////////////////////////END AAM Reports////////////////////////////////
+
+///////////////////////////////Non Sublisting/////////////////////////////////
+
+
+		<nonSublisting> 
+			<xpath>//font[text()='Non-Subscriber Listing and Labels']</xpath>
+		</nonSublisting>
+		
+		<dropdownPublicationName> 
+			<xpath>//select[contains(@name,'0.3.13.0.5.0.0.0.4')]/option[@value='9']</xpath>
+		</dropdownPublicationName>
+		
+		<dropdownPrintFormatMailLables> 
+			<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.1.0.3.0.0.0.0.6')]/option[@value='0']</xpath>
+		</dropdownPrintFormatMailLables>
+	
+		<dropdownPrintFormatText> 
+			<xpath>//select[contains(@name,'0.3.13.0.5.0.0.1.1.0.3.0.0.0.0.6')]/option[@value='2']</xpath>
+		</dropdownPrintFormatText>
+
+		<printButtonNonSub> 
+			<xpath>//input[@name='0.3.13.0.5.0.0.1.1.0.3.0.0.0.0.4.0.0']</xpath>
+		</printButtonNonSub>
+
+		<clickGetPdf> 
+			<xpath>//input[@name='0.3.13.0.5.0.1.0.0.3.1.1.0.0']</xpath>
+		</clickGetPdf>
+			
+		<clickGetText> 
+			<xpath>//input[@name='0.3.13.0.5.0.1.0.0.3.2.1.0.0']</xpath>
+		</clickGetText>
+				   			
+		<clickBackButton> 
+			<xpath>//input[@name='0.3.13.0.5.0.1.0.0.2.0.0']</xpath>
+		</clickBackButton>
+		
+		<clickBackButtonMailLables> 
+			<xpath>//input[@name='0.3.13.0.5.0.1.1.0.2.0.0']</xpath>
+		</clickBackButtonMailLables>
+				   
+		<mailLablesVerify>
+			<xpath>//font[@color='#1f0dff'][contains(.,'Label generation has completed.')]</xpath>
+		</mailLablesVerify>			
+ 		
+</OR> 

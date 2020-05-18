@@ -1,0 +1,10 @@
+17/01/2018 23:22:28 automation  initializeLogger src//test//resources//essentials// :: web - 17.January.201811.22.27
+17/01/2018 23:22:28 automation Logger Initiated
+17/01/2018 23:22:28 automation Reading Environment configuration file
+17/01/2018 23:22:28 automation Reading src//test//resources//essentials//\Config.xlsx
+17/01/2018 23:22:28 automation Reading Configurations
+17/01/2018 23:22:28 automation Reading readEnviromentsUrls
+17/01/2018 23:22:29 automation Reading readEnviromentsUrls
+17/01/2018 23:22:29 automation Reading Email
+17/01/2018 23:22:29 automation config Initiated :src//test//resources//essentials//
+17/01/2018 23:22:29 automation config file not Initiatedjava.io.FileNotFoundException: src\test\resources\essentials\config.properties (The system cannot find the file specified)

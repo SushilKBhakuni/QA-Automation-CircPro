@@ -1,0 +1,55 @@
+28/04/2020 19:44:17 automation  initializeLogger D:\Framework\Autofusion3.7\NewscycleTestRepository :: web - 28.April.202007.44.16
+28/04/2020 19:44:17 automation Logger Initiated
+28/04/2020 19:44:17 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+28/04/2020 19:44:17 automation User config loaded
+28/04/2020 19:44:17 automation config Initiated :D:\Framework\Autofusion3.7\NewscycleTestRepository
+28/04/2020 19:44:17 automation User config loaded
+28/04/2020 19:44:19 automation Reading Environment configuration file
+28/04/2020 19:44:19 automation Reading D:\Framework\Autofusion3.7\NewscycleTestRepository\Config.xlsx
+28/04/2020 19:44:19 automation Reading Configurations
+28/04/2020 19:44:19 automation Reading readEnviromentsUrls
+28/04/2020 19:44:19 automation Reading readEnviromentsUrls
+28/04/2020 19:44:19 automation Reading Email
+28/04/2020 19:44:31 automation Inside findElement
+28/04/2020 19:44:31 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+28/04/2020 19:44:31 automation  Root element  :OR
+28/04/2020 19:44:31 automation  element :validusername = 1
+28/04/2020 19:44:31 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+28/04/2020 19:44:31 automation inside waitForVisibilityOfElement
+28/04/2020 19:44:31 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='username']
+28/04/2020 19:44:33 automation Inside findElement
+28/04/2020 19:44:33 automation XML  reading start || getElement : elementName = password runningComponentName=CircPro_Login
+28/04/2020 19:44:33 automation  Root element  :OR
+28/04/2020 19:44:33 automation  element :password = 1
+28/04/2020 19:44:33 automation XML reading done ||  getElement : elementValue = //input[@name='password']
+28/04/2020 19:44:33 automation inside waitForVisibilityOfElement
+28/04/2020 19:44:33 automation 
+--------- Element Found : Locator=By.xpath: //input[@name='password']
+28/04/2020 19:44:34 automation Func:Click
+28/04/2020 19:44:34 automation Inside findElement
+28/04/2020 19:44:34 automation XML  reading start || getElement : elementName = loginButton runningComponentName=CircPro_Login
+28/04/2020 19:44:34 automation  Root element  :OR
+28/04/2020 19:44:34 automation  element :loginButton = 1
+28/04/2020 19:44:34 automation XML reading done ||  getElement : elementValue = //input[@value='Log In']
+28/04/2020 19:44:34 automation inside waitForVisibilityOfElement
+28/04/2020 19:44:34 automation 
+--------- Element Found : Locator=By.xpath: //input[@value='Log In']
+28/04/2020 19:44:34 automation Func:Static Click
+28/04/2020 19:44:34 automation Func:Static Click Exception=org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=81.0.4044.122)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 10.0.18363 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6 milliseconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DEL1-LHP-N68376', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab), userDataDir=C:\Users\SARTHA~1.KUM\AppData\Local\Temp\scoped_dir18532_8644}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=81.0.4044.122, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: a5aa5792ed12f8ec7d0196c132b380b3
+28/04/2020 19:44:34 automation Assert java.lang.AssertionError: expected [true] but found [false]
+28/04/2020 19:44:34 automation Inside findElement
+28/04/2020 19:44:34 automation XML  reading start || getElement : elementName = validusername runningComponentName=CircPro_Login
+28/04/2020 19:44:34 automation  Root element  :OR
+28/04/2020 19:44:34 automation  element :validusername = 1
+28/04/2020 19:44:34 automation XML reading done ||  getElement : elementValue = //input[@name='username']
+28/04/2020 19:44:34 automation inside waitForVisibilityOfElement

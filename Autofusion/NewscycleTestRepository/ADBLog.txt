@@ -1,0 +1,8 @@
+--------- beginning of main
+02-28 22:37:25.249 10970 15290 D ApplicationPackageManager: we has com.samsung.android.calendar class. reuse it 
+02-28 22:37:25.259 10970 15290 I ApplicationPackageManager: load= live icon for com.samsung.android.calendar, from overlay = false
+02-28 22:37:25.344 18222 18266 I ReschedulableTimer: [#CMH#] ReschedulableTimer started 
+--------- beginning of system
+02-28 22:37:25.390  3667  3694 I WindowManager_SurfaceController: Destroying surface Surface(name=com.sprint.ce.test/com.sprint.ce.test.IDActivity_dim) called by com.android.server.wm.WindowStateAnimator.finishExit:593 com.android.server.wm.AppWindowAnimator.stepAnimationLocked:493 com.android.server.wm.WindowAnimator.updateAppWindowsLocked:227 com.android.server.wm.WindowAnimator.animateLocked:919 com.android.server.wm.WindowAnimator.-wrap0:-1 com.android.server.wm.WindowAnimator$1.doFrame:180 android.view.Choreographer$CallbackRecord.run:925 android.view.Choreographer.doCallbacks:702 
+02-28 22:37:25.390  3142  3203 I SurfaceFlinger: id=93 Removed JDActivity_ (4/11)
+02-28 22:37:25.391  3142  5059 I SurfaceFlinger: id=93 Removed JDActivity_ (-2/11)
